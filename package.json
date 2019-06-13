@@ -1,0 +1,25 @@
+{
+  "name": "patternlab",
+  "version": "1.0.0",
+  "description": "Patternlab setup",
+  "main": "index.js",
+  "scripts": {
+    "pl:help": "patternlab --help",
+    "pl": "node ./scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@pattern-lab/cli": "^0.0.3",
+    "@pattern-lab/core": "^3.0.1",
+    "@pattern-lab/engine-mustache": "^2.0.1-alpha.0",
+    "@pattern-lab/starterkit-mustache-base": "^3.0.3",
+    "@pattern-lab/uikit-workshop": "^1.0.1",
+    "bach": "^1.2.0",
+    "connect-api-mocker": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2"
+  }
+}

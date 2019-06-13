@@ -1,0 +1,12 @@
+<div class="{{bundleName}}">
+  <section class="bingo-winners animate-in--container">
+    <div class="bingo-game-category">
+      <h2 class="bingo__h2">{{ headline.short}}</h2>
+      <div class="bingo-game-category__cards js-slider">
+        {{# listItems.four}}
+          {{> molecules-bingo-winner-card }}
+        {{/ listItems.four}}
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="{{ htmlClass }} mode-preview">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?{{ cacheBuster }}" media="all" />
+
+{{! Core }}
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Common/Framework/Design/Styles/Framework/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Common/Framework/Design/Styles/Framework/icomoon-icons.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Framework/default-page.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Shared/Framework/Design/Fonts/fonts.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Shared/Framework/BrowserRequirements/Styles/BrowserRequirements.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Authentification/header.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Framework/Design/Styles/CubeLoader.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Navigation/back-to-parent-link.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/overlay.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Authentification/Styling/login-widgets.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Global/cookie-info.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Global/hidden-hooks.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Shared/Framework/Feeds/Styles/feeds.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Campaigns/global-campaign-spot.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/print.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Overlays/article.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Overlays/footer.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Overlays/layout.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Overlays/left-navigation.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Framework/PlayerAccountManagement/Styles/ModalDialog.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Header/Styles/HeaderEntry.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/ErrorHandling/Styles/layout.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Footer/Styles/Footer.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/Shared/Framework/Consent/Style/notification.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Header/Styles/Notifications.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Navigation/Styles/generic-smart-banner.css" />
+
+{{! Bingo }}
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/AvalonComponents/Styles/Themes/Bingo/BingoStyles.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Domain/Campaigns/campaign-page.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Regions/Bingo/bingo-spot.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Regions/Bingo/bingo-game-widget.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Header/Styles/Themes/TopNavigationThemeBingo.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Footer/Styles/Themes/FooterThemeBingo.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Poker/Styles/6.component.game-gallery.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Base/typography.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Base/buttons.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Base/transitions.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/BingoFrontpage.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/FeaturedSection.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/GameCategoryTeaser.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/GameRoomTeaser.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/HistoricalJackpotWinners.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/Hero.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/NewsletterSubscription.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/slick-slider.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/Avalon.Bingo/Styles/Components/AnimatedBackgroundImages.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Domain/AvalonBingoChatHost/Styles/Components/ChatHost.css" />
+<link rel="stylesheet" type="text/css" href="/BuildArtifacts/Components/DanskeSpil/Project/Design/Styles/Regions/Bingo/bingo-layout.new.css" />
+
+<script>
+  var DS = DS || {};
+  DS.Config = {
+    BASE_HOST: location.origin,
+    FEEDSERVER_URL: '/mockapi',
+    DSAPI_URL: '//' + location.hostname + '/dsapi',
+    DSAPI_TESTENV: true,
+    SSO_SERVER_URL: '//town21sso-dli.danskespil.dk',
+    CONTEXT: 'DLI',
+    CONTEXTPREFIX:'/dli',
+    PRETTYPREFIX:'/blaa-konto',
+    BOSSOCONTEXT:'',
+    FEEDSERVER_TOKEN: 'd35b241487678e7e39cf2e4e42d8fb4c',
+    FEEDSERVER_TOKEN_VM2018: 'caf70e7d78a7f1248e0f565838692f72',
+    G_ANALYTICS_ACCOUNT_ID: 'UA-24521941-2',
+    CONSOLE_LOG_LEVEL: 1,
+    RELEASE: 'dev',
+
+    RECAPTCHA_SITEKEY: '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
+    RECAPTCHA_URL: '//www.google.com/recaptcha/api.js?onload=reCaptchaReady&amp;render=explicit&amp;hl=da',
+
+    ENFORCE_HTTPS: false, // CHANGED  true,
+    ENV: 'dev',
+    DICTIONARY_TTL: 10, /* In Seconds (very low on dev) */
+
+    SENTRY_ENABLED: false,
+    SENTRY_ENDPOINT: '//97cae6a2487b47a485a8e7d00dff658f@sentry.io/160998',
+    SENTRY_ENV: 'dev',
+    SENTRY_LOG_MISSING_DICTIONARY_KEYS: false,
+
+    SPILLEHJOERNET_GAMEJACKPOTS: '//feed.danskespil.dk/spillehjoernet/jackpotsall',
+    LIVECASINO_APIURL: '//town25.evolution-gaming-lobby-integration.dsservice.eu/api/v1',
+
+    CEGO_FEED_URL: '//town21feed.danskespil.dk/spillehjoernet',
+    SPORTECH_DANTOTO_URL: '//town21stweb.danskespil.dk',
+    BW_BINGO_INSTANT_URL: '//town21bwbip.danskespil.dk',
+    YOUTUBE_API_URL: '//www.youtube.com/iframe_api',
+    BINGO_GAMEINFO_URL: '/danskespilfeeds/bingo/v2/games'
+  };
+</script>
+
+{{! Core scripts - head}}
+<script src="/Components/Common/Framework/ScriptLibraries/Scripts/raven.min.js"></script>
+<script src="/Components/DanskeSpil/Project/Design/Js/Core-head/preinit.js"></script>
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    {{{ patternLabHead }}}
+    <!-- End Pattern Lab -->
+  
+  </head>
+  <body class="{{ bodyClass }} is-desktop-detected" data-time-now="2019-06-11T14:38:56">
+
+    <form method="post" action="">
+      <div id="wrapper" class="page">
+        <div class="page-box">
+          
