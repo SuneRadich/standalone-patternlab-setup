@@ -114,13 +114,6 @@ module.exports = {
       "enabled": true,
       "excludedPatternStates": [],
       "excludedTags": []
-    },
-    {
-      "name": "uikit-workshop",
-      "outputDir": "",
-      "enabled": true,
-      "excludedPatternStates": [],
-      "excludedTags": []
     }
   ]
 }

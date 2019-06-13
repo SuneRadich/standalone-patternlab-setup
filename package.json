@@ -17,6 +17,7 @@
     "@pattern-lab/starterkit-mustache-base": "^3.0.3",
     "@pattern-lab/uikit-workshop": "^1.0.1",
     "ansi-colors": "^3.2.4",
+    "argv": "0.0.2",
     "bach": "^1.2.0",
     "chokidar": "^3.0.1",
     "connect-api-mocker": "^1.5.0",

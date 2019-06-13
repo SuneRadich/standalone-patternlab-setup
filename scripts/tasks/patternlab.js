@@ -1,5 +1,7 @@
 const config = require('../../patternlab-config.js');
 const PatternLab = require('@pattern-lab/core')(config);
+const log = require('fancy-log');
+const color = require('ansi-colors');
 
 function serve() {
   return PatternLab.server.serve({
@@ -8,13 +10,13 @@ function serve() {
   }).then(() => {
     // eslint-disable-next-line no-unused-vars
     PatternLab.events.on('patternlab-pattern-asset-change', (data) => {
-      // Log(data); // {file: 'path/to/file.css', dest: 'path/to/destination'}
+      // log(data); // {file: 'path/to/file.css', dest: 'path/to/destination'}
       PatternLab.server.refreshCSS();
     });
 
     // eslint-disable-next-line no-unused-vars
     PatternLab.events.on('patternlab-pattern-change', (data) => {
-      // Log(data); // {file: 'path/to/file.ext'}
+      // log(data); // {file: 'path/to/file.ext'}
       PatternLab.patternsonly({
         cleanPublic: false
       }).then(() => {
@@ -24,7 +26,7 @@ function serve() {
 
     // eslint-disable-next-line no-unused-vars
     PatternLab.events.on('patternlab-global-change', (data) => {
-      // Log(data); // {file: 'path/to/file.ext'}
+      // log(data); // {file: 'path/to/file.ext'}
     });
   });
 }
