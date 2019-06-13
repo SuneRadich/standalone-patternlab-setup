@@ -3,15 +3,12 @@ const path = require('path');
 const log = require('fancy-log');
 const debug = require('gulp-debug');
 const chokidar = require('chokidar');
-
-
+const color = require('ansi-colors');
 
 const siteSource = '../DanskeSpil.Website/develop/Website';
-
 const dsArtifacts = '/BuildArtifacts/';
 const dsComponents = '/Components/';
 const dest = './public/';
-
 
 /**
  * Idea
@@ -20,7 +17,7 @@ const dest = './public/';
 
 function copy(done) {
 
-  log('Copying DS assets');
+  log(color.green('Copying DS assets'));
 
   const artifactSource = path.join(siteSource, dsArtifacts, '**/*.*');
   const componentSource = path.join(siteSource, dsComponents, '**/*.js');
@@ -42,7 +39,7 @@ function copy(done) {
 /**
  * Watch Sitecore output folders for changes and copy to Patternlab folder
  */
-function watch() {
+function watch(done) {
 
   const artifacts = path.join(siteSource, dsArtifacts);
   const components = path.join(siteSource, dsComponents);
@@ -51,15 +48,19 @@ function watch() {
     gulp.src(path, { base: siteSource})
       .pipe(gulp.dest(dest));
     
-    log(`Copied ${path} to PatternLab`)
+    log(color.green(`Copied ${color.yellow(path)} to PatternLab`));
   });
 
   chokidar.watch(components).on('change', (path, stats) => {
     gulp.src(path, { base: siteSource})
       .pipe(gulp.dest(dest));
 
-    log(`Copied ${path} to PatternLab`)
+      log(color.green(`Copied ${color.yellow(path)} to PatternLab`));
   });
+
+  log(color.green('Watching for changes'));
+
+  done();
 
 }
 

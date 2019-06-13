@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const apiMocker = require('connect-api-mocker');
 const log = require('fancy-log');
+const color = require('ansi-colors');
 
 function mockapi() {
 
@@ -17,7 +18,7 @@ function mockapi() {
   server.use(apiMocker('/mockapi', 'source/__mock-api__'))
 
   server.listen(port, () => {
-    log(`Mock api listening on port ${port}`);
+    log(color.green(`Mock api listening on port ${port}`));
   });
 }
 
