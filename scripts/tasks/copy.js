@@ -1,23 +1,69 @@
 const gulp = require('gulp');
+const path = require('path');
+const log = require('fancy-log');
+const debug = require('gulp-debug');
+const chokidar = require('chokidar');
+
+
+
+const siteSource = '../DanskeSpil.Website/develop/Website';
+
+const dsArtifacts = '/BuildArtifacts/';
+const dsComponents = '/Components/';
+const dest = './public/';
+
+
+/**
+ * Idea
+ * - watch artifacts folder for changes, and copy files
+ */
 
 function copy(done) {
 
-  console.log('Copying DS assets');
+  log('Copying DS assets');
 
-  const dsArtifacts = '../Website/BuildArtifacts/';
-  const dsComponents = '../Website/Components/';
-  const dest = './public/';
-
+  const artifactSource = path.join(siteSource, dsArtifacts, '**/*.*');
+  const componentSource = path.join(siteSource, dsComponents, '**/*.js');
+  
   // Copy all build artifacts
-  gulp.src(`${dsArtifacts}/**/*.*`).pipe(gulp.dest(`${dest}/BuildArtifacts`));
+  gulp.src(artifactSource, { base: siteSource })
+    //.pipe(debug())
+    .pipe(gulp.dest(dest), { cwd: './'});
 
   // Copy all javascript files
-  gulp.src(`${dsComponents}/**/*.js`).pipe(gulp.dest(`${dest}/Components`));
+  gulp.src(componentSource, { base: siteSource })
+    //.pipe(debug())
+    .pipe(gulp.dest(dest));
 
   done();
 
 }
 
+/**
+ * Watch Sitecore output folders for changes and copy to Patternlab folder
+ */
+function watch() {
+
+  const artifacts = path.join(siteSource, dsArtifacts);
+  const components = path.join(siteSource, dsComponents);
+
+  chokidar.watch(artifacts).on('change', (path, stats) => {
+    gulp.src(path, { base: siteSource})
+      .pipe(gulp.dest(dest));
+    
+    log(`Copied ${path} to PatternLab`)
+  });
+
+  chokidar.watch(components).on('change', (path, stats) => {
+    gulp.src(path, { base: siteSource})
+      .pipe(gulp.dest(dest));
+
+    log(`Copied ${path} to PatternLab`)
+  });
+
+}
+
 module.exports = {
-  copy: copy
+  copy: copy,
+  watch: watch
 }

@@ -1,14 +1,16 @@
 const bach = require('bach');
-const copy = require('./tasks/copy').copy;
+const copy = require('./tasks/copy');
 const mockapi = require('./tasks/mockapi').mockapi;
 const patternlab = require('./tasks/patternlab');
+const log = require('fancy-log');
 
 const build = bach.series(
   // Raw copy of frontend bundles
-  copy,
+  copy.copy,
   bach.parallel(
     // Start mock api
     mockapi,
+    copy.watch,
     // Start patternlab instance
     patternlab.serve
   )
@@ -17,5 +19,5 @@ const build = bach.series(
 build( (err) => {
   if (err) throw err;
 
-  console.log('Patternlab started');
+  log('Patternlab started');
 })
