@@ -108,6 +108,10 @@ function buildRegionData() {
       'avalon-keno': {
         areaClass: 'keno-avalon',
         topNavigationTheme: 'top-navigation-theme-keno'
+      },
+      'avalon-livecasino': {
+        areaClass: 'content-area avalon-area',
+        topNavigationTheme: 'top-navigation-theme-livecasino'
       }
     };
 
