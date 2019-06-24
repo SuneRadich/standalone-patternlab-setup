@@ -45,13 +45,13 @@ function watch(done) {
   const components = path.join(siteSource, dsComponents);
 
   chokidar.watch(artifacts).on('change', (path, stats) => {
-    gulp.src(path, { base: siteSource})
+    gulp.src(path, { base: siteSource })
       .pipe(gulp.dest(dest));
     
     log(color.green(`Copied ${color.yellow(path)} to PatternLab`));
   });
 
-  chokidar.watch(components).on('change', (path, stats) => {
+  chokidar.watch(components, { ignored: '*.less' }).on('change', (path, stats) => {
     gulp.src(path, { base: siteSource})
       .pipe(gulp.dest(dest));
 
