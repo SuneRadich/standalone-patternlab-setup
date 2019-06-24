@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
     <link rel="stylesheet" href="../../css/pattern-scaffolding.css?{{ cacheBuster }}" media="all" />
 
-  {{> meta-core-head-scripts-bundle }}
-  {{> meta-core-style-bundle }}
-  {{> meta-region-style-bundle }}
-
 <script>
   var DS = DS || {};
   DS.Config = {
@@ -54,16 +50,16 @@
   };
 </script>
 
-{{! Core scripts - head}}
-<script src="/Components/Common/Framework/ScriptLibraries/Scripts/raven.min.js"></script>
-<script src="/Components/DanskeSpil/Project/Design/Js/Core-head/preinit.js"></script>
+  {{> meta-core-head-scripts-bundle }}
+  {{> meta-core-style-bundle }}
+  {{> meta-region-style-bundle }}
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     {{{ patternLabHead }}}
     <!-- End Pattern Lab -->
   
   </head>
-  <body class="{{ bodyClass }} is-desktop-detected" data-time-now="2019-06-11T14:38:56">
+  <body style="{{{bodyStyle}}}" class="{{ bodyClass }} is-desktop-detected" data-time-now="2019-06-11T14:38:56">
 
     <form method="post" action="">
       <div id="wrapper" class="page">
