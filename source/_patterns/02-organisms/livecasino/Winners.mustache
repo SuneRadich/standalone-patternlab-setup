@@ -1,0 +1,43 @@
+<div class="element winners-table">
+    
+  <div class="winners-table__head-container">
+      
+    <div class="winners-table__head">
+      <h3>{{headline.short}}</h3>
+      <p>{{ headline.medium }}</p>
+    </div>
+    
+    <div class="winners-table__image-container">
+      <div class="winners-table__image" style="background-image: url('https://picsum.photos/600/250');"></div>
+    </div>
+
+  </div>
+
+  <div class="winners-table__container">
+
+    <div class="winners-table__table-head">
+      <div class="winners-table__cell">Vinder</div>
+      <div class="winners-table__cell">Dato</div>
+      <div class="winners-table__cell">Præmie</div>
+    </div>
+    
+    {{#listItems.five}}
+    <div class="winners-table__table-row">  
+      <div class="winners-table__cell winners-table__cell--half">
+        <span class="winners-table__cell-prefix">Vinder</span>
+        {{ name.first }}
+      </div>
+      <div class="winners-table__cell winners-table__cell--half">
+        <span class="winners-table__cell-prefix">Dato</span>
+        {{ day.long }}/{{ month.digit }}/{{ year.short }}
+      </div>
+      <div class="winners-table__cell">
+        <span class="winners-table__cell-prefix">Præmie</span>
+        {{ excerpt.short }}
+      </div>
+    </div>
+    {{/listItems.five}}
+
+  </div>
+
+</div>
