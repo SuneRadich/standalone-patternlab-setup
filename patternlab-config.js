@@ -65,7 +65,6 @@ module.exports = {
       "images": "source/images",
       "fonts": "source/fonts",
       "css": "source/css"
-      
     },
     "public": {
       "root": "public/",
@@ -77,7 +76,6 @@ module.exports = {
       "images": "public/images",
       "fonts": "public/fonts",
       "css": "public/css"
-      
     }
   },
   "patternExtension": "mustache",
@@ -94,8 +92,12 @@ module.exports = {
   
 	"serverOptions": {
 		"wait": 1000,
-		"noCssInject": true,
-		"proxy": [
+    "noCssInject": true,
+    mount: [
+      ['/Components', '../DanskeSpil.Website/develop/Website/Components'],
+      ['/BuildArtifacts', '../DanskeSpil.Website/develop/Website/BuildArtifacts']
+    ],
+		proxy: [
       ["/mockapi", "http://127.0.0.1:3010/mockapi"],
       ['/dli', 'http://127.0.0.1:3010/mockapi']
 		]

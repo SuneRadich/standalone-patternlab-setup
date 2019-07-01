@@ -20,6 +20,10 @@ function mockapi() {
   server.listen(port, () => {
     log(color.green(`Mock api listening on port ${port}`));
   });
+
+  return Promise.resolve();
+
+
 }
 
 module.exports = {

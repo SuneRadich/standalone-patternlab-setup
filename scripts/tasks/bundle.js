@@ -124,7 +124,6 @@ function buildRegionData() {
 
   return new Promise(( resolve, reject) => {
     fs.writeFileSync(source, JSON.stringify(json));
-
     resolve();
   })
   
