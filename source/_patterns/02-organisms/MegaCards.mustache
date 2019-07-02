@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="heading">
+    <h1 class="title">
+      {{ headline.short }}
+    </h1>
+  </div>
+</div>
+
+<div class="mega-cards mega-mode swiper-container container">
+  <div class="swiper-wrapper card__swiper-wrapper js-featured-cards">
+    {{#listItems.nine}}
+    {{> molecules-MegaCard }}
+    {{/listItems.nine}}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>

@@ -1,0 +1,48 @@
+<a href="#gamelink" class="card swiper-slide">
+  <img class="card__attribute card__attribute--popular" alt="Populært" src="/Components/DanskeSpil/Project/Design/Graphics/regions/avalon-quick/attribute_popular.svg" />
+  <div class="card__wrapper">
+    <div class="card__images">
+      <picture>
+        <%-- Base64 image is an empty image to reduce png loads on mobile and tablet --%>
+        <source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          media="(max-width: 1223px)" />
+        <img class="card-image__overlay" src="<%= game.MegaCardOverlayImage %>" alt="" />
+      </picture>
+      <picture>
+        <source srcset="http://placeimg.com/100/100/people" media="(max-width: 767px)" />
+        <source srcset="http://placeimg.com/100/100/tech" media="(min-width: 1224px)" />
+        <source srcset="http://placeimg.com/100/100/nature" media="(min-width: 768px)" />
+        <img class="card-image__background" src="http://placeimg.com/100/100/people" />
+      </picture>
+    </div>
+
+    <div class="card__content">
+      <h3 class="card__title">{{ headline.short }}</h3>
+
+      <p class="card__description">{{ headline.short }}</p>
+      <div class="card__labels">
+        <div class="card__label card__label--price">
+          <span>100</span> kr.
+        </div>
+
+        <div class="card__label card__label--prize">Vind something</div>
+      </div>
+
+      <div class="scratch-cta__wrapper">
+        <div class="scratch-cta__line scratch-cta__line--1">
+          <div class="scratch-cta__text scratch-cta__text--1">SPIL NU</div>
+          <img class="scratch-cta__svg scratch-cta__svg--1" src="/Components/DanskeSpil/Project/Design/Graphics/regions/avalon-quick/skrab-fx-1.svg" alt="" />
+        </div>
+        <div class="scratch-cta__line scratch-cta__line--2">
+          <div class="scratch-cta__text scratch-cta__text--2">SPIL NU</div>
+          <img class="scratch-cta__svg scratch-cta__svg--2" src="/Components/DanskeSpil/Project/Design/Graphics/regions/avalon-quick/skrab-fx-2.svg" alt="" />
+        </div>
+        <div class="scratch-cta__line scratch-cta__line--3">
+          <div class="scratch-cta__text scratch-cta__text--3">SPIL NU</div>
+          <img class="scratch-cta__svg scratch-cta__svg--3" src="/Components/DanskeSpil/Project/Design/Graphics/regions/avalon-quick/skrab-fx-3.svg" alt="" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</a>
