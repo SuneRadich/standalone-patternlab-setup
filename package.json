@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pl:help": "patternlab --help",
-    "pl": "node ./scripts/build.js"
+    "pl": "node ./scripts/build.js",
+    "mock": "node ./scripts/mock.js"
   },
   "author": "",
   "license": "ISC",
