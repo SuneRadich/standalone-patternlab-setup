@@ -99,7 +99,8 @@ module.exports = {
     ],
 		proxy: [
       ["/mockapi", "http://127.0.0.1:3010/mockapi"],
-      ['/dli', 'http://127.0.0.1:3010/mockapi']
+      ['/dli', 'http://127.0.0.1:3010/mockapi'],
+      ['/dlo', 'http://127.0.0.1:3010/mockapi']
 		]
 	},
   "starterkitSubDir": "dist",
