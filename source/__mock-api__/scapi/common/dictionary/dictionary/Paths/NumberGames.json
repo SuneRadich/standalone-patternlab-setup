@@ -1,0 +1,1741 @@
+{
+  "NumberGames": {
+    "BingoBoxen": {
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "BingoBoxenClassic": {
+        "Autogenerate": "Autoudfyld",
+        "ChangeBoard": "Skift kupon",
+        "Header": "Udfyld selv",
+        "JokerSaturday": "Joker Lørdag",
+        "JokerWednesday": "Joker Onsdag"
+      },
+      "ConfirmStep": {
+        "GameType": "Spiltype:",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "JokerHeaderText": "{draws} {weeks} joker",
+        "OverlayErrorBody": "Der er sgu gået noget galt! Det jammer ikke.",
+        "OverlayErrorConfirm": "OKAY, DANS",
+        "OverlayErrorHeader": "HOVSA!",
+        "ShowAllBoardsButtonText": "se alle boxe",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår",
+        "Header": {
+          "HeaderText": "{draws} {weeks} boxen {playType}",
+          "Draw": "spilleuge:",
+          "HeaderWeek": "uges",
+          "HeaderWeeks": "ugers"
+        },
+        "ReceiveWinnerMessage": {
+          "EmailText": "ja tak, send e-mail",
+          "Headline": "Få vinderbesked",
+          "SmsText": "ja tak, send sms",
+          "Subheadline": "Skal vi sende dig en besked når du vinder?"
+        }
+      },
+      "Countdown": {
+        "CountdownDisabledHeading": "Der er ingen trækning i dag :/",
+        "CountdownHeading": "Vi trækker Bingo-tallene om"
+      },
+      "GenerateRowsErrorOverlay": {
+        "Body": "Der er sgu sket en fejl.",
+        "Dismiss": "Okay, du!",
+        "Header": "Hov!"
+      },
+      "JokerOverlay": {
+        "Button": "{totalJokerPrice} kr. - ja tak!",
+        "Description": "Huskede vi at minde dig om Jokeren? Der er {poolSize} i puljen. For kun {jokerPrice} kr. pr. Joker.",
+        "MinPoolSize": "min. 2 mio.",
+        "NoJoker": "Nej tak, ingen Joker!",
+        "PoolSize": "15 mio.",
+        "Saturday": "Lørdag",
+        "Wednesday": "Onsdag"
+      },
+      "JokerTypes": {
+        "JokerSaturday": "Joker Lørdag",
+        "JokerWednesday": "Joker Onsdag",
+        "JokerWednesdayAndSaturday": "Joker Onsdag og Lørdag"
+      },
+      "Lightning": {
+        "ChooseRows": "Det hurtige spil. Vælg her hvor mange boxe du vil spille?",
+        "Headline": "LynBoxen",
+        "JokerDefaultPot": "mindst 2 mio.",
+        "Rows": "Spil",
+        "Saturday": "LØRDAG",
+        "StakePool": "{jokerStake} kr. per Joker. Puljen er {poolWednesday} kr før Onsdags Joker og {poolSaturday} kr før Lørdags Joker.",
+        "Tagline": "{jokerprice} kr. for Joker. Puljen er {potsize} mio. kr.",
+        "Wednesday": "ONSDAG"
+      },
+      "PlayTypes": {
+        "BingoBoxenClassic": "BingoBoxen Classic",
+        "BingoBoxenLightning": "BingoBoxen Lyn"
+      },
+      "PurchaseBar": {
+        "Back": "TILBAGE",
+        "ConfirmPurchase": "BEKRÆFT KØB",
+        "Stake": "{stake} KR.",
+        "PerRow": " PR. RÆKKE",
+        "StakeDropdownHeader": "INDSATS PR. RÆKKE",
+        "PlayRowsFor": "SPIL RÆKKERNE I ",
+        "NumberOfDrawsSingular": "{draws} UGE",
+        "NumberOfDrawsPluralis": "{draws} UGER",
+        "DrawsDropdownHeader": "ANTAL UGER",
+        "SubmitButton": "{totalstake} KR - KØB NU"
+      },
+      "ReceiptStep": {
+        "GotoCoupon": "Se dine Bingo-rækker",
+        "Heading": "Med {jokerTypes} - til {jokerPrice} kr.",
+        "SubHeading": "Så er dit spil pakket, klart og parat - {playType} med {jokerTypes} til {totalPrice} kr."
+      },
+      "BingoBoxenClosed": {
+        "GameNotAvailableHeader": "Det er noget galt med spillet, kom tilbage senere",
+        "NoOpenDrawHeader": "Kig forbi igen kl. 21"
+      },
+      "WinningNumbers": {
+        "ChooseDate": "Vælg spilledato",
+        "collapseButton": "Luk Vindertal",
+        "DateOptionPrefix": "Trækning den",
+        "expandButton": "Se vindertal",
+        "JokerResultsCorrect2": "2 rigtige",
+        "JokerResultsCorrect3": "3 rigtige",
+        "JokerResultsCorrect4": "4 rigtige",
+        "JokerResultsCorrect5": "5 rigtige",
+        "JokerResultsCorrect6": "6 rigtige",
+        "JokerResultsCorrect7": "7 rigtige",
+        "JokerResultsCorrectNumbers": "Antal rigtige",
+        "JokerResultsPrize": "Gevinst",
+        "JokerResultsWinners": "Antal vindere",
+        "LottoResultsCorrect4": "4 rigtige",
+        "LottoResultsCorrect5": "5 rigtige",
+        "LottoResultsCorrect6": "6 rigtige",
+        "LottoResultsCorrect6plus1": "6 rigtige + 1",
+        "LottoResultsCorrect7": "7 rigtige",
+        "PrizeHeading": "Vindertal",
+        "PrizePostfix": "Tjek om det er dig der har vundet",
+        "PrizeSuffix": "kr.",
+        "ResultsPrize": "Gevinst",
+        "ResultsSystem": "System",
+        "ResultsWinners": "Vindere",
+        "WinningNumbers": "Vindertal",
+        "BonusNumbers": "Stjernetal",
+        "NumberHeadline": {
+          "Centrum": "1. Centrum",
+          "Frispil": "Frispil",
+          "FuldPlade": "Fuld plade",
+          "Ramme": "1. Ramme"
+        },
+        "CorrectSystem": {
+          "Id1": "Fuld Plade",
+          "Id2": "1. Ramme",
+          "Id3": "1. Centrum",
+          "Id4": "Ramme",
+          "Id5": "Centrum",
+          "Id6": "Fri Spil",
+          "Id7": "TV Game"
+        }
+      },
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "NoOpenDrawHeader": "Hovsa!",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      }
+    },
+    "Eurojackpot": {
+      "JokerOverlay": {
+        "Button": "{totalJokerPrice} kr. - Ja tak!.",
+        "ButtonWeekly": "{totalJokerPrice} kr. pr. uge - Ja tak!",
+        "Description": "Skal du have Joker? Der er {poolSizeWednesday} mio. i puljen onsdag og {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlySaturday": "Skal du have Joker med? Der er {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlyWednesday": "Skal du have Joker med? Der er {poolSizeWednesday} mio. i puljen onsdag. For kun {jokerPrice} kr. pr. Joker.",
+        "MinPoolSize": "min. 2 mio.",
+        "NoJoker": "Nej tak, ingen Joker!",
+        "PoolSize": "15 mio.",
+        "Saturday": "Lørdag",
+        "Wednesday": "Onsdag"
+      },
+      "GenerateRowsErrorOverlay": {
+        "Body": "Der er sket en fejl!",
+        "Dismiss": "Prøv igen",
+        "Header": "Hov!"
+      },
+      "JokerWinningNumbers": {
+        "DateOptionPrefix": "Trækning",
+        "DayNameSeparatorFromDate": "den",
+        "PrizeHeading": "Joker vindertal",
+        "PrizePostfix": "Tjek om det er dig der har vundet",
+        "ResultsCorrectNumbers": "Antal rigtige",
+        "ResultsPrize": "Gevinst",
+        "ResultsWinners": "Antal vindere",
+        "SaturdayJokerName": "Lørdag",
+        "WednesdayJokerName": "Onsdag",
+        "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+        "CorrectJokerNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "7",
+          "Id2": "6",
+          "Id3": "5",
+          "Id4": "4",
+          "Id5": "3",
+          "Id6": "2"
+        }
+      },
+      "ShakeOverlay": {
+        "ShakeOverlayText": "Ryst din mobil og få gode tal på rækken."
+      },
+      "ToggleJoker": {
+        "StakePool": "{jokerStake} kr. for Joker. Puljen er {poolPrize} kr."
+      },
+      "SelectDropdown": {
+        "Placeholder": "Vælg indstilling ..."
+      },
+      "SubscriptionValidationOverlay": {
+        "Body": "For at oprette et PLUS abonnement skal du min. vælge 2 rækker.",
+        "Dismiss": "Ok",
+        "Header": "PLUS tilmelding"
+      },
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "Processing": "Gennemfører køb...",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "ConfirmStep": {
+        "DepositButton": "GÅ TIL INDBETALING",
+        "DepositHeader": "INDSÆT PENGE",
+        "DepositText": "Du har desværre ikke penge nok på din konto til at foretage et køb. Sæt flere ind og vind!",
+        "Draw": "Trækning:",
+        "DrawDateTo": "til",
+        "DrawPluralis": "Trækninger:",
+        "DrawSingular": "Trækning:",
+        "GameType": "Spiltype:",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "JokerAnd": "og",
+        "JokerSaturday": "lørdag",
+        "JokerWednesday": "onsdag",
+        "JokerWith": "Med",
+        "OverlayErrorBody": "Noget gik galt! Prøv igen senere.",
+        "OverlayErrorConfirm": "OKAY",
+        "OverlayErrorHeader": "HOVSA!",
+        "RebuyCouponNotFoundDescription": "Den valgte kupon til genkøb kunne ikke findes.",
+        "RebuyCouponNotFoundTitle": "Kupon ikke fundet",
+        "ReceiptTitle": "Kvittering",
+        "Row": "Række",
+        "ShowAllRowsButtonText": "Vis alle rækker",
+        "SystemGameChosenNumbersTitle": "Valgte systemtal",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår",
+        "Header": {
+          "Headline": "Bekræft Køb",
+          "Text": "Du spiller {rows} {playType} {system} i {draws}"
+        },
+        "ReceiveWinnerMessage": {
+          "EmailText": "ja tak, send e-mail",
+          "Headline": "Få vinderbesked",
+          "SmsText": "ja tak, send sms",
+          "Subheadline": "Skal vi sende dig en besked når du vinder?"
+        }
+      },
+      "Countdown": {
+        "CountdownDisabledHeading": "Der er ingen trækning i dag :/",
+        "CountdownHeading": "Vi trækker Eurojackpot-tallene om",
+        "NoOpenDrawCountdownHeading": "Eurojackpot åbner igen om",
+        "ReceiptCountdownHeading": "Vi trækker Eurojackpot-tallene om"
+      },
+      "EurojackpotClassic": {
+        "NavigationCreateNewRow": "Du kan tilføje en ny ved at klikke på + ovre til højre.",
+        "OptionSelectorRows": "Antal rækker:",
+        "OverlayDeleteBody": "Du har ret. Denne række er vist ikke den af dine rækker med den største vinderchance. Men hvem ved...",
+        "OverlayDeleteCancel": "Annuller",
+        "OverlayDeleteConfirm": "Slet Række",
+        "OverlayDeleteHeader": "Slet række?",
+        "RowsListCreateNewRowButton": "Tilføj ny række",
+        "RowsListErrorText": "Vælg minimum et tal mere.",
+        "RowsListErrorTitle": "FEJL PÅ RÆKKE",
+        "RowsListHeaderAmountPluralis": "DU HAR OPRETTET {rows} RÆKKER",
+        "RowsListHeaderAmountSingular": "DU HAR OPRETTET 1 RÆKKE",
+        "RowsListRow": "Række"
+      },
+      "EurojackpotReceiptStep": {
+        "CountdownFallback": "Der er ingen trækning i dag :/",
+        "CountdownHeading": "Vi trækker LOTTO-tallene om",
+        "GotoCoupon": "Se dine Lotto-rækker",
+        "Heading": "Hej {userName} eller {firstName} {lastName}! Dit {playType}-køb er gennemført! Rækker: {rows} - {joker} x {jokerCount} for {jokerStake}kr - Uger: {draws} - Pris: {totalPrice} kr.  ",
+        "CouponOverlay": {
+          "closeButton": "Luk",
+          "printButton": "Print"
+        }
+      },
+      "NumbersPickerButtons": {
+        "NumbersFooterClear": "RYD RÆKKE",
+        "NumbersFooterAuto": "UDFYLD RESTEN"
+      },
+      "EurojackpotLightning": {
+        "Headline": "Lyn Eurojackpot",
+        "Row": "række",
+        "Rows": "rækker",
+        "ChooseRows": "Vælg antal rækker herunder:"
+      },
+      "PlayTypes": {
+        "EurojackpotClassic": "Vælg Selv Eurojackpot",
+        "EurojackpotLightning": "Lyn Eurojackpot",
+        "EurojackpotLucky": "Lykke Eurojackpot",
+        "EurojackpotSystem": "System Eurojackpot "
+      },
+      "EurojackpotClosed": {
+        "GameNotAvailableHeader": "Vi har tekniske problemer",
+        "GameNotAvailableText": "Vi arbejder på at få spillet op at køre igen",
+        "NoOpenDrawHeader": "Vi er ved at trække ugens vindertal.",
+        "NoOpenDrawText": "Spil med igen fra kl. 21",
+        "FrontpageLightning": {
+          "GameNotAvailableHeader": "Beklager",
+          "GameNotAvailableText_1": "Vi har tekniske problemer",
+          "GameNotAvailableText_2": "Vi arbejder på at få spillet op at køre igen",
+          "NoOpenDrawHeader": "Trækning",
+          "NoOpenDrawText_1": "Vi er ved at trække ugens vindertal. ",
+          "NoOpenDrawText_2": "Spil med igen fra kl. 21"
+        }
+      },
+      "EurojackpotLucky": {
+        "OptionSelectorTitle": "Antal rækker:",
+        "RowDescription": "VÆLG 6 TAL",
+        "RowHeader": "Vælg min. 1 Hovedtal eller Stjernetal ",
+        "InfoTab": {
+          "GameDescription": "De resterende tal vælger systemet for dig tilfældigt.",
+          "Header": "Lykke Eurojackpot {rows} rækker",
+          "SystemDescription": "Når du spiller Lykke Eurojackpot, skal du vælge min. 1 Hovedtal eller Stjernetal."
+        }
+      },
+      "WinningNumbers": {
+        "ChooseDate": "Vælg spilledato",
+        "collapseButton": "Luk Vindertal",
+        "DateOptionPrefix": "Trækning den",
+        "DisclaimerInfoText": "OBS! Kun danske vindere er angivet",
+        "expandButton": "Se vindertal",
+        "JokerResultsCorrect2": "2 rigtige",
+        "JokerResultsCorrect3": "3 rigtige",
+        "JokerResultsCorrect4": "4 rigtige",
+        "JokerResultsCorrect5": "5 rigtige",
+        "JokerResultsCorrect6": "6 rigtige",
+        "JokerResultsCorrect7": "7 rigtige",
+        "JokerResultsCorrectNumbers": "Antal rigtige",
+        "JokerResultsPrize": "Gevinst",
+        "JokerResultsWinners": "Antal vindere",
+        "Numbers": "{amount} rigtige",
+        "PrizeHeading": "Vindertal",
+        "PrizePostfix": "Tjek om det er dig der har vundet",
+        "PrizeSuffix": "kr.",
+        "ResultsCorrect4": "4 rigtige",
+        "ResultsCorrect5": "5 rigtige",
+        "ResultsCorrect6": "6 rigtige",
+        "ResultsCorrect6plus1": "6 rigtige + 1",
+        "ResultsCorrect7": "7 rigtige",
+        "ResultsCorrectNumbers": "Rigtige",
+        "ResultsPrize": "Gevinst",
+        "ResultsWinners": "Danske vindere",
+        "WinningNumbers": "Vindertal",
+        "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+        "BonusNumbers": "Stjernetal",
+        "CorrectNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "5+2",
+          "Id10": "3+0",
+          "Id11": "1+2",
+          "Id12": "2+1",
+          "Id2": "5+1",
+          "Id3": "5+0",
+          "Id4": "4+2",
+          "Id5": "4+1",
+          "Id6": "4+0",
+          "Id7": "3+2",
+          "Id8": "2+2",
+          "Id9": "3+1"
+        }
+      },
+      "PurchaseBar": {
+        "Back": "TILBAGE",
+        "ConfirmPurchase": "BEKRÆFT KØB",
+        "PlayRowsEveryWeek": "SOM ABONNEMENT",
+        "Processing": "Forbereder køb...",
+        "Stake": "{stake} KR.",
+        "SubmitButtonPlus": "KØB NU",
+        "PerRow": " PR. RÆKKE",
+        "StakeDropdownHeader": "INDSATS PR. RÆKKE",
+        "PlayRowsFor": "SPIL RÆKKERNE ",
+        "NumberOfDrawsSingular": "{draws} UGE",
+        "NumberOfDrawsPluralis": "{draws} UGER",
+        "DrawsDropdownHeader": "ANTAL UGER",
+        "SubmitButton": "{totalstake} KR - KØB NU"
+      },
+      "ReceiptStep": {
+        "CountdownFallback": "Der er ingen trækning i dag :/",
+        "GotoCoupon": "Se dine Eurojackpot-rækker",
+        "Heading": "Dit {playType}-køb er gennemført! ",
+        "Hours": "timer",
+        "Minutes": "min.",
+        "Seconds": "sek.",
+        "SubscribeReminder": {
+          "Error": "Der er desværre sket en fejl.",
+          "ErrorUserUnauthorized": "Der er desværre sket en fejl. Er du logget ind?",
+          "KeepRemindMe": "Ja tak, påmind mig fortsat gerne når mine fleruges Eurojackpotspil er udløbet.",
+          "RemindMe": "Ja tak, påmind mig gerne når mine fleruges Eurojackpotspil er udløbet.",
+          "SuccessDontRemindMe": "Vi har opdateret dine præferencer. Du vil ikke modtage en påmindelse når dine fleruges Eurojackpotspil er udløbet.",
+          "SuccessRemindMe": "Vi har opdateret dine præferencer. Du vil modtage en påmindelse når dine fleruges Eurojackpotspil er udløbet."
+        }
+      },
+      "RowHeader": {
+        "Description": "Vælg {gameNumbersPerRow} Hovedtal og {gameStarNumbersPerRow} Stjernetal",
+        "DescriptionAllNumbersSelected": "Rækken udfyldt",
+        "Of": "af",
+        "Row": "Række"
+      },
+      "EurojackpotSystem": {
+        "OptionSelectorTitle": "System:",
+        "RowDescription": "I alt {rows} rækker",
+        "RowHeader": "Vælg {numbers} Hovedtal og {starNumbers} Stjernetal",
+        "KeyTab": {
+          "CloseFoldableButton": "Skjul rækker",
+          "ExpandFoldableButton": "Vis alle rækker",
+          "Header": "Systembeskrivelse {systemName}",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintHeader": "SYSTEM",
+          "PrintMyNumbers": "Mine tal:",
+          "PrintRow": "Række",
+          "Row": "Række {number}",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over systemnøglerne i det valgte system.",
+          "SubheaderNumbersPicked": "I tabellen nedenfor kan du se en oversigt over samtlige spillede rækker i det valgte system.",
+          "TableHeaderNumber": "Tal",
+          "TableHeaderRow": "Række"
+        },
+        "ProfitGuaranteeTab": {
+          "Header": "Gevinstgaranti {systemName}",
+          "PrintAdditionalNumbers": "Tillægstal",
+          "PrintCorrectNumbers": "{number} rigtige",
+          "PrintFifthPrize": "5. præmie",
+          "PrintFirstPrize": "1. præmie",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintFourthPrize": "4. præmie",
+          "PrintFrequency": "Hyppighed",
+          "PrintHeader": "GEVINST",
+          "PrintMainNumbers": "Hovedtal",
+          "PrintNumberOfCorrectNumbers": "Antal rigtige",
+          "PrintNumberOfCrosses": "Antal kryds",
+          "PrintNumberOfPrizes": "Antal præmier",
+          "PrintNumberOfPrizesWithNumbers": "Antal præmier med rigtige hovedtal og stjernetal",
+          "PrintNumberOfRows": "Antal rækker",
+          "PrintSecondPrize": "2. præmie",
+          "PrintStarNumbers": "Stjernetal",
+          "PrintThirdPrize": "3. præmie",
+          "PrintWinningNumbers": "Vindertal",
+          "PrintWinningsExplanation": "I tabellen nedenfor kan du se hvor mange gevinster du får, hvis du vinder på det valgte system.",
+          "RowDescription": "Her ser du gevinsttabellen for {numbers} hovedtal og {starNumbers} stjernetal for systemet {system}.",
+          "RowHeader": "{numbers} Hovedtal + {starNumbers} Stjernetal",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over, hvor mange gevinster du får, hvis du vinder på {systemName}.",
+          "WinningNumbers": "Vindertal"
+        },
+        "InfoTab": {
+          "GameDescription": "I system {system} skal du vælge {numbers} Hovedtal og 2 Stjernetal. De spilles på {rows} rækker.",
+          "Header": "Systembeskrivelse {system}",
+          "Step1": "Vælg det Eurojackpot-system du ønsker at spille på listen.",
+          "Step2": "Vælg {numbers} Hovedtal og 2 Stjernetal.",
+          "Step3": "Klik på \"KØB NU\" for at købe spillet.",
+          "Step4": "Du kan se og printe dine spillede rækker, når du har købt spillet.",
+          "SystemDescription": "På et matematisk system spiller du samtlige kombinationer med de valgte tal.",
+          "ThisIsHowYouPlay": "Sådan spiller du {system}"
+        }
+      },
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "ClientConnectionRefusedBody": "Gå til Min side for at tjekke dit køb.",
+        "ClientConnectionRefusedDismiss": "Ok",
+        "ClientConnectionRefusedHeader": "Forbindelsen afbrudt",
+        "ClientConnectionTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "ClientConnectionTimeoutDismiss": "Ok",
+        "ClientConnectionTimeoutHeader": "Forbindelsen afbrudt",
+        "DrawMismatchDismiss": "Ok",
+        "GameProviderTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "GameProviderTimeoutDismiss": "Ok",
+        "GameProviderTimeoutHeader": "Forbindelsen afbrudt",
+        "NoOpenDrawDismiss": "Ok",
+        "PlayerRestrictedFromBuyDismiss": "Ok",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "TechnicalErrorDismiss": "Ok",
+        "NoOpenDrawHeader": "Hovsa!",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      },
+      "RotateScreen": {
+        "Bottom": "Så bliver Eurojackpot sjovere!",
+        "Top": "Vend telefonen."
+      }
+    },
+    "Keno": {
+      "PlayTypes": {
+        "KenoClassic": "Vælg Selv Keno",
+        "KenoLarge": "Store Keno",
+        "KenoMillion": "MillionKeno",
+        "KenoSmall": "Lille Keno",
+        "KenoSystem": "Keno-system {level}"
+      },
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "Processing": "Gennemfører køb...",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "ConfirmStep": {
+        "DepositButton": "GÅ TIL INDBETALING",
+        "DepositHeader": "INDSÆT PENGE",
+        "DepositText": "Du har desværre ikke penge nok på din konto til at foretage et køb. Sæt flere ind og vind!",
+        "Draw": "Trækning:",
+        "DrawDateTo": "-",
+        "GameInstanceNotFound": "Det pågældende spil er udløbet.",
+        "GameType": "Spiltype:",
+        "GameTypeKenoClassic": "Keno Classic",
+        "GameTypeKenoLarge": "Store Keno",
+        "GameTypeKenoMillion": "MillionKeno",
+        "GameTypeKenoSmall": "Lille keno",
+        "GameTypeKenoSystem": "Keno-system {level}",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "GetNotified": "Få vinderbesked",
+        "Header": "",
+        "NotificationQuestion": "Skal vi sende dig en besked når du vinder?",
+        "OptinEmail": "Ja tak, send e-mail",
+        "OptinSMS": "Ja tak, send SMS",
+        "OverlayErrorBody": "Der er gået noget galt! Prøv igen.",
+        "OverlayErrorConfirm": "OK",
+        "OverlayErrorHeader": "HOVSA!",
+        "RebuyCouponNotFoundDescription": "Den valgte kupon til genkøb kunne ikke findes.",
+        "RebuyCouponNotFoundTitle": "Kupon ikke fundet",
+        "ReceiptTitle": "Kvittering",
+        "ShowAllRowsButtonText": "Vis flere rækker",
+        "ShowAllRowsButtonText": "Vis alle rækker",
+        "Subheader": "",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "TermsLink": "https://danskespil.dk/regler--a--vilkaar/vilkaar/netspilsvilkaar",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår",
+        "ReceiveWinnerMessage": {
+          "EmailText": "ja tak, send e-mail",
+          "Headline": "Få vinderbesked",
+          "SmsText": "ja tak, send sms",
+          "Subheadline": "Skal vi sende dig en besked når du vinder?"
+        }
+      },
+      "FaqPrizes": {
+        "CompactButton": "Skjul tabel",
+        "ExpandButton": "Vis tabel",
+        "NoMobileVersion": "Ingen mobilversion tilgængelig.",
+        "TableChanceRatio": "1 til {ratio}",
+        "TableHeader": "{numbers} spillede tal",
+        "TableHeaderCorrectNumbers": "Antal korrekte tal",
+        "TableHeaderPrizeAmount": "Mulig gevinst",
+        "TableHeaderWinningProbability": "Sandsynlighed"
+      },
+      "GenerateRowsErrorOverlay": {
+        "Body": "Der er sket en fejl!",
+        "Dismiss": "Prøv igen",
+        "Header": "Hov!"
+      },
+      "HowToPlay": {
+        "Header": "Sådan Spiller Du",
+        "Info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      "KenoClassic": {
+        "AddNewRowBoxFirst": "Du kan vælge op til 10 tal pr. række",
+        "AddNewRowBoxSecond": "eller",
+        "AddNewRowBoxThird": "tilføje en ny række",
+        "BarometerBiggestChance": "STØRST CHANCE",
+        "BarometerBiggestWinnings": "STØRST GEVINST",
+        "BarometerPotentialWinnings": "MULIG GEVINST",
+        "BarometerPotentialWinningsNotice": " *",
+        "Header": "",
+        "NumbersHeaderAutoDesktop": "Auto-udfyld",
+        "NumbersHeaderAutoMobile": "Auto",
+        "NumbersHeaderChosen": "VALGTE:",
+        "NumbersHeaderClearDesktop": "Ryd alle tal",
+        "NumbersHeaderClearMobile": "Ryd",
+        "OverlayDeleteBody": "Er du helt sikker på at du vil slette denne række?",
+        "OverlayDeleteCancel": "ANNULLER",
+        "OverlayDeleteConfirm": "SLET RÆKKE",
+        "OverlayDeleteHeader": "SLET RÆKKE?",
+        "RowHeaderDescription": "VÆLG 2 TIL 10 TAL",
+        "RowHeaderOf": "AF",
+        "RowHeaderRow": "RÆKKE",
+        "RowsListErrorText": "Vælg minimum et tal mere.",
+        "RowsListErrorTitle": "FEJL PÅ RÆKKE",
+        "RowsListInfo1": "Indsats pr. række: {stake} kr.",
+        "RowsListInfo2": "Rækkerne spilles i {days} dag(e)",
+        "RowsListInfo3": "Trækningsdato: {date}",
+        "RowsListInfo4": "(ikke tilgængelig)",
+        "RowsListInfo5": "-",
+        "RowsListInfo6": "Trækningsdatoer: {date}",
+        "RowsListRow": "RÆKKE",
+        "RowsListTitlePluralis": "DINE {amount} RÆKKER",
+        "RowsListTitleSingular": "DIN RÆKKE",
+        "WinningsAmount1": "10.500 KR",
+        "WinningsAmount10": "300.000 KR",
+        "WinningsAmount2": "13.000 KR",
+        "WinningsAmount3": "26.500 KR",
+        "WinningsAmount4": "50.000 KR",
+        "WinningsAmount5": "65.000 KR",
+        "WinningsAmount6": "70.800 KR",
+        "WinningsAmount7": "100.000 KR",
+        "WinningsAmount8": "135.000 KR",
+        "WinningsAmount9": "155.500 KR",
+        "WinningsMaxRules": "(Se desuden spilleregler på <a href=\"https://danskespil.dk\">danskespil.dk</a>.)",
+        "WinningsOverview": "GEVINSTOVERSIGT"
+      },
+      "KenoReceiptStep": {
+        "ContentHeading": "Vi trækker Keno-tallene om",
+        "CountdownFallback": "Der er ingen trækning i dag :/",
+        "GotoCoupon": "Se dine Keno-rækker",
+        "Heading": "Dit køb af {playType} er gennemført! ",
+        "SubHeading": "",
+        "CouponOverlay": {
+          "closeButton": "Luk",
+          "printButton": "Print"
+        }
+      },
+      "KenoSystem": {
+        "LevelSelectorHeadline": "ANTAL TAL DU VIL SPILLE",
+        "NumbersHeaderChosenDesktop": "ANTAL VALGTE:",
+        "NumbersHeaderChosenMobile": "VALGTE:",
+        "NumbersHeaderCombinationDesktop": "ANTAL SPIL:",
+        "NumbersHeaderCombinationMobile": "SPIL:",
+        "NumbersHeaderNumber": "TAL",
+        "RowHeaderDescription": "VÆLG MELLEM {number} OG 10 TAL",
+        "RowHeaderDescriptionFull": "VÆLG 10 TAL",
+        "SystemTable": {
+          "Header": "SYSTEMTABEL FOR KENO-SYSTEM {level}",
+          "Paragraph1": "I Systemtabellen nedenfor kan du se en oversigt over, hvor mange tal du kan vælge indenfor det valgte Keno-system. Desuden hvor mange spil (antal kombinationer) du deltager med, samt en oversigt over hvilke odds du kan opnå.",
+          "Paragraph2": "Hvis du f.eks. har valgt at spille 3 tal på Keno-system 2 og alle 3 tal bliver udtrukket, får du 3 gange gevinstfaktor 7, hvilket giver et samlet odds på 21.",
+          "TableHeaderNumbersPlayed": "Antal tal",
+          "TableHeaderCombinations": "Mulige kombinationer",
+          "TableHeaderCombinationsBreak": "Mulige kombina-tioner",
+          "TableHeaderCorrectNumbers": "Antal rigtige tal",
+          "TableHeaderPrizeGivingGames": "Antal gevinstgivende spil",
+          "TableHeaderPrizeFactor": "Gevinst faktor {factor}",
+          "TableHeaderPrizeKey": "Gevinstnøgle",
+          "ExpandButton": "Vis systemtabel",
+          "CompactButton": "Skjul systemtabel",
+          "NoMobileVersion": "Åben siden fra en computer for at se systemtabellen",
+          "NoSystemTableAvailableError": "Ingen tabel for det valgte system."
+        }
+      },
+      "KenoTop": {
+        "Heading": "Det Enkle Talspil",
+        "HowToPlay": "Sådan spiller du Keno",
+        "NavButton": "Spil Nu"
+      },
+      "MillionKeno": {
+        "Header": "MILLIONKENO",
+        "HeaderColor": "#ffffff",
+        "SubHeader": "VI HAR GJORT EN LYN-KUPON",
+        "SubHeaderColor": "#ffffff",
+        "Description": "KLAR TIL DIG",
+        "DescriptionColor": "#ffffff",
+        "DrawInfoRowsAndStake": "{rows} rækker á {stake} kr. - {totalstake} kr.",
+        "DrawInfoDrawDateSingular": "Trækningsdag: {drawdate}",
+        "DrawInfoDrawDatePluralis": "Trækningsdage: {drawdate}",
+        "DrawInfoGameStop": "Spilstop: {gamestopdate} kl. {gamestoptime}",
+        "RowsHeader": "Dine {rows} rækker",
+        "CompactRowsButton": "Skjul rækker",
+        "ExpandRowsButton": "Vis rækkerne",
+        "GenerateNewRowsButton": "Dan nye rækker"
+      },
+      "News": {
+        "NewsListSpot": {
+          "ReadNews": "Læs nyhed",
+          "TopSpotHeading": "Keno-nyheder",
+          "TopSpotSubHeading": "Læs de seneste vinderhistorier"
+        },
+        "NewsView": {
+          "ShareNews": "Del denne nyhed"
+        }
+      },
+      "PurchaseBar": {
+        "Back": "TILBAGE",
+        "ConfirmPurchase": "BEKRÆFT KØB",
+        "PlayRowsAsSubscription": "SPIL SOM ABONNEMENT",
+        "PlayRowsEveryWeek": "SPIL RÆKKERNE SOM ABONNEMENT",
+        "Processing": "Forbereder køb...",
+        "Stake": "{stake} KR.",
+        "SubmitButtonPlus": "KØB NU",
+        "PerRow": " PR. RÆKKE",
+        "StakeDropdownHeader": "INDSATS PR. RÆKKE",
+        "PlayRowsFor": "SPIL RÆKKERNE I ",
+        "NumberOfDrawsSingular": "{draws} DAG",
+        "NumberOfDrawsPluralis": "{draws} DAGE",
+        "DrawsDropdownHeader": "ANTAL DAGE",
+        "SubmitButton": "{totalstake} KR. - SPIL NU"
+      },
+      "ReceiptBar": {
+        "MoreGamesButton": "Spil flere Keno rækker",
+        "MyGamesButton": "Se dine Keno spil"
+      },
+      "RotateScreen": {
+        "Bottom": "Så bliver keno sjovere!",
+        "Top": "Vend telefonen,"
+      },
+      "Winnings": {
+        "ChooseDate": "Hvornår spillede du?",
+        "ChoosePlayedNumbers": "Hvor mange tal spillede du pr. række?",
+        "ChooseStakePerRow": "HVAD VAR DIN INDSATS PR. RÆKKE?",
+        "ChooseWinningNumbers": "Klik på dine vindertal.",
+        "Loading": "Indlæser...",
+        "PrizeTableHeader": "{numbers} spillede tal - {date}",
+        "PrizeTableHeaderCorrectNumbers": "Antal rigtige tal",
+        "PrizeTableHeaderWinners": "Antal vindere",
+        "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+        "PrizeTableHeaderPrize": "Gevinst {stake} kr. pr række ",
+        "PrizeTableCellCorrectNumbers": "{correctNumbers} rigtige"
+      },
+      "WinningsOverview": {
+        "Headline": "Gevinstoversigt",
+        "LevelWinningsHeadline": "Antal valgte tal",
+        "NotWinningNumbers": "MINIMUM",
+        "WinningsCorrect": "ANTAL RIGTIGE",
+        "WinningsPossibleWinnings": "MULIG GEVINST",
+        "WinningsMax": "Keno har et gevinstloft pr. antal spillede tal på 22 mio. kr. pr. trækning",
+        "WinningsMaxRules": "(Se desuden spilleregler på www.danskespil.dk)"
+      },
+      "Countdown": {
+        "CountdownDisabledHeading": "Der er ingen trækning i dag :/",
+        "NoOpenDrawCountdownHeading": "Keno-spillet åbner igen om",
+        "ReceiptCountdownHeading": "Vi trækker Keno-tallene om"
+      },
+      "SelectDropdown": {
+        "Placeholder": "Vælg indstilling ..."
+      },
+      "KenoClosed": {
+        "GameNotAvailableHeader": "Spillet er i øjeblikket nede – Kom tilbage senere",
+        "GameNotAvailableText": "Vi arbejder på at få spillet op at køre igen",
+        "NoOpenDrawHeader": "Beklager!",
+        "NoOpenDrawText": "Lige nu er Keno-spillet lukket!",
+        "FrontpageKenoMillion": {
+          "GameNotAvailableHeader": "Beklager",
+          "GameNotAvailableText_1": "Vi har tekniske problemer",
+          "GameNotAvailableText_2": "Vi arbejder på at få spillet op at køre igen",
+          "NoOpenDrawHeader": "Vi er i gang med at finde de næste millionærer ",
+          "NoOpenDrawText": "Kom tilbage igen senere og spil med! Vi trækker nye tal hver eneste dag."
+        }
+      },
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "DrawMismatchDismiss": "Ok",
+        "NoOpenDrawDismiss": "Ok",
+        "PlayerRestrictedFromBuyDismiss": "Ok",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "TechnicalErrorDismiss": "Ok",
+        "NoOpenDrawHeader": "Hovsa!",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      }
+    },
+    "Packages": {
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "DrawMismatchDismiss": "OK",
+        "NoOpenDrawDismiss": "OK",
+        "PlayerRestrictedFromBuyDismiss": "OK",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "TechnicalErrorDismiss": "OK",
+        "NoOpenDrawHeader": "Hovsa!",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      },
+      "Logos": {
+        "ConfirmStepLogos": {
+          "Eurojackpot": {
+            "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+            "Joker": "icon-joker_logo_red",
+            "LottoSaturday": "icon-lotto_logo_red",
+            "LottoWednesday": "icon-onsdagslotto_logo_white",
+            "VikingLotto": "icon-vikinglotto_logo_blue"
+          },
+          "Lotto": {
+            "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+            "Joker": "icon-joker_logo_red",
+            "LottoSaturday": "icon-lotto_logo_red",
+            "LottoWednesday": "icon-onsdagslotto_logo_red",
+            "VikingLotto": "icon-vikinglotto_logo_blue"
+          },
+          "VikingLotto": {
+            "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+            "Joker": "icon-joker_logo_red",
+            "LottoSaturday": "icon-lotto_logo_red",
+            "LottoWednesday": "icon-vikinglotto_logo_blue",
+            "VikingLotto": "icon-vikinglotto_logo_blue"
+          }
+        },
+        "Eurojackpot": {
+          "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+          "Joker": "icon-joker_logo_white",
+          "LottoSaturday": "icon-lotto_logo_white",
+          "LottoWednesday": "icon-onsdagslotto_logo_red",
+          "VikingJoker": "icon-joker_logo_white",
+          "VikingLotto": "icon-vikinglotto_logo_white"
+        },
+        "Lotto": {
+          "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+          "Joker": "icon-joker_logo_white",
+          "LottoSaturday": "icon-lotto_logo_white",
+          "LottoWednesday": "icon-onsdagslotto_logo_red",
+          "VikingJoker": "icon-joker_logo_white",
+          "VikingLotto": "icon-vikinglotto_logo_white"
+        },
+        "VikingLotto": {
+          "EuroJackpot": "icon-eurojackpot_logo_bg_yellow",
+          "Joker": "icon-joker_logo_white",
+          "LottoSaturday": "icon-lotto_logo_white",
+          "LottoWednesday": "icon-vikinglotto_logo_blue",
+          "VikingJoker": "icon-joker_logo_white",
+          "VikingLotto": "icon-vikinglotto_logo_white"
+        }
+      },
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "Processing": "Gennemfører køb...",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "ConfirmStep": {
+        "DepositButton": "GÅ TIL INDBETALING",
+        "DepositHeader": "INDSÆT PENGE",
+        "DepositText": "Du har desværre ikke penge nok på din konto til at foretage et køb. Sæt flere ind og vind!",
+        "Draw": "Trækning:",
+        "DrawDate": "Trækningsdato: ",
+        "DrawDateTo": "til",
+        "FallbackJokerText": "mindst 2",
+        "GameType": "Spiltype:",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "Heading": "Du spiller med i Lotto, Vikinglotto, Eurojackpot og Joker",
+        "JokerDrawDates": "Trækningsdato: {wednesdayDate}, {saturdayDate}",
+        "JokerPools": "Onsdag: {wednesdayPool} kr. Lørdag: {saturdayPool} kr",
+        "JokerSaturdayHeader": "Joker lørdag:",
+        "JokerWednesdayHeader": "Joker onsdag:",
+        "Millioner": "mio.",
+        "OverlayErrorBody": "Der er sgu gået noget galt! Det jammer ikke.",
+        "OverlayErrorConfirm": "OKAY, DANS",
+        "OverlayErrorHeader": "HOVSA!",
+        "Pool": "Pulje:",
+        "Price": "Indskud:",
+        "ReceiptTitle": "Kvittering",
+        "Row": "Række",
+        "RowNumber": "Række {rowNumber}:",
+        "RowsHeader": "Dine {amount} {gameType} rækker",
+        "SubHeading": "Herunder kan du se alle dine spil",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår"
+      },
+      "ErrorOverlay": {
+        "FullPackageBody": "Der er sket en fejl.",
+        "FullPackageDismiss": "Okay",
+        "FullPackageHeader": "Hov!"
+      },
+      "GameTypes": {
+        "EuroJackpot": "EuroJackpot",
+        "JokerSaturday": "Joker Lørdag",
+        "JokerWednesday": "Joker Onsdag",
+        "LottoSaturday": "Lotto",
+        "LottoWednesday": "Onsdags Lotto",
+        "SaturdayLotto": "Lotto",
+        "VikingLotto": "Vikinglotto",
+        "WednesdayLotto": "OnsdagsLotto"
+      },
+      "ReceiptStep": {
+        "GotoCoupon": "Se dine spil",
+        "Heading": "Dit køb af ugepakken er gennemført"
+      },
+      "Countdown": {
+        "NoOpenDrawCountdownHeading": "Ugepakke-spillet åbner igen om"
+      },
+      "Spot": {
+        "FallbackJokerText": "<span>Mindst</span> 2 MIO",
+        "GameNotAvailableHeader": "Det er noget galt med spillet, kom tilbage senere.",
+        "NoOpenDrawHeader": "Vi er ved at trække tallene i et af de spil, som indgår i ugepakken. Du kan derfor ikke købe ugepakken i øjeblikket.",
+        "Header": {
+          "ConfirmButtonText": "{totalPrice}  kr. - Spil nu",
+          "Headline": "ugepakken",
+          "HeadlineText": "Med en ugepakke spiller du med i Lotto, Vikinglotto, Eurojackpot og Joker nemt og hurtigt.",
+          "PoolAmount": "{totalPoolAmount} mio",
+          "SubHeadline": "Køb ugepakken og spil med om en samlet pulje på:"
+        },
+        "Pool": {
+          "EurojackpotNumberOfRows": "4 rækker",
+          "NumberOfRows": "10 Rækker",
+          "PoolHeadline": "",
+          "SaturdayJokerText": "Lørdag",
+          "WednesdayJokerText": "Onsdag"
+        }
+      }
+    },
+    "StatisticsModule": {
+      "Months": "Januar,Februar,Marts,April,Maj,Juni,Juli,August,September,Oktober,November,December",
+      "GraphModule": {
+        "PeriodFilter": {
+          "FilterHeaderWithoutSelections": "Overblik for hele perioden",
+          "FilterHeaderWithSelectedPeriod": "Overblik for: ",
+          "FilterOutNumbersWithoutValue": "Skjul nul",
+          "MonthFilter": "Måned:",
+          "OrderFilter": "Rækkefølge:",
+          "PeriodFilterButtonText": "Periode filter",
+          "YearFilter": "År:"
+        },
+        "NumbersTypeToggleSwitch": {
+          "Eurojackpot": {
+            "NormalNumbers": "Vindertal",
+            "SpecialNumbers": "Stjernetal"
+          },
+          "Lotto": {
+            "NormalNumbers": "Vindertal",
+            "SpecialNumbers": "Tillægstal"
+          },
+          "Vikinglotto": {
+            "NormalNumbers": "Vindertal",
+            "SpecialNumbers": "Vikingtal"
+          }
+        },
+        "GraphOverview": {
+          "MaximizeOverview": "Maksimere overblik",
+          "MinimizeOverview": "Minimere oversigten"
+        },
+        "SelectedNumbers": {
+          "ButtonsHeadline": "Spil med dine favorittal:",
+          "Headline": "Dine  favorittal:",
+          "NoSelectedNumbers": "Vælg dine  favorittal og tilføj dem til dit spil.",
+          "RemoveNumbers": "Fjern favorittal",
+          "Buttons": {
+            "Lotto": {
+              "Classic": "Vælg Selv Lotto",
+              "Lucky": "Lykke Lotto",
+              "System": "System Lotto"
+            },
+            "Vikinglotto": {
+              "Classic": "Vælg Selv Vikinglotto",
+              "Lucky": "Lykke Vikinglotto",
+              "System": "System Vikinglotto"
+            },
+            "Eurojackpot": {
+              "Classic": "Vælg Selv Eurojackpot",
+              "Lucky": "Lykke Eurojackpot",
+              "System": "System Eurojackpot"
+            },
+            "Keno": {
+              "Classic": "Vælg Selv Keno",
+              "System": "System Keno"
+            }
+          }
+        }
+      },
+      "SelectedNumbersForGameClientsComponent": {
+        "Headline": "Dine favorittal",
+        "Buttons": {
+          "Autoselect": "Vælg alle favorittal",
+          "Delete": "Slet",
+          "Edit": "Redigere"
+        }
+      }
+    },
+    "ViewCoupon": {
+      "MultipleDrawWeeks": "SPILLEUGE: {firstWeek} - {lastWeek}/{year}",
+      "ChosenNumbers": "valgte tal",
+      "CompanyNameDisclaimer": "Udbydes af Danske Lotteri Spil A/S",
+      "CouponId": "Kupon: {couponId}",
+      "DrawWeek": "SPILLEUGE: {week}/{year} - ",
+      "HeadlineKenoDrawDays": "{days} trækningsdage",
+      "HeadlineWeekAmount": "{weeks} uger",
+      "LoadingDescription": "Vent venligst!",
+      "LoadingHeader": "Indlæser kupon...",
+      "RebuyCoupon": "KØB IGEN",
+      "TotalPrice": "TOTALINDSKUD:",
+      "TotalPricePerWeek": "TOTALINDSKUD:",
+      "Errors": {
+        "GenericDescription": "Der er desværre sket en fejl ved visning af kuponen. Vi beklager meget!",
+        "GenericHeader": "Hovsa!",
+        "NoCouponId": "Mangler kupon-ID.",
+        "RequestValidationDescription": "Der er desværre sket en fejl ved visning af kuponen. Vi beklager meget!",
+        "RequestValidationHeader": "Hovsa!"
+      },
+      "EuroJackpot": {
+        "Row": "række",
+        "Rows": "antal rækker"
+      },
+      "GameTypes": {
+        "EuroJackpot": "Eurojackpot",
+        "JokerSaturday": "JOKER Lørdag",
+        "JokerWednesday": "JOKER Onsdag",
+        "Keno": "Keno",
+        "KenoSystem": "KENO SYSTEM {level}",
+        "LottoSaturday": "Lotto",
+        "LottoWednesday": "Onsdags Lotto",
+        "VikingLotto": "Vikinglotto"
+      },
+      "Keno": {
+        "DrawDate": "Trækningsdag:",
+        "DrawDates": "Trækningsdage:",
+        "KenoLarge": "",
+        "Row": "række",
+        "Rows": "rækker",
+        "Wager": "Indskud:",
+        "WagerRowMulti": "{wager} kr. x {rows} række x {draws} trækninger",
+        "WagerRowSingle": "{wager} kr. x {rows} række x {draws} trækning",
+        "WagerRowsMulti": "{wager} kr. x {rows} rækker x {draws} trækninger",
+        "WagerRowsSingle": "{wager} kr. x {rows} rækker x {draws} trækning"
+      },
+      "LottoSaturday": {
+        "Row": "række",
+        "Rows": "antal rækker"
+      },
+      "LottoWednesday": {
+        "Row": "række",
+        "Rows": "antal rækker"
+      },
+      "PlayTypes": {
+        "Eurojackpot": {
+          "Classic": "Vælg selv Eurojackpot",
+          "Lightning": "Lyn Eurojackpot",
+          "Lucky": "Lykke Eurojackpot",
+          "System": "System Eurojackpot ",
+          "Unknown": ""
+        },
+        "Keno": {
+          "KenoLarge": "Store Keno",
+          "KenoMillion": "Million Keno",
+          "KenoSmall": "Lille Keno",
+          "System": "System Keno",
+          "Unknown": ""
+        },
+        "LottoSaturday": {
+          "Classic": "Vælg selv Lotto",
+          "Lightning": "Lyn Lotto",
+          "Lucky": "Lykke Lotto",
+          "System": "System  Lotto",
+          "Unknown": ""
+        },
+        "LottoWednesday": {
+          "Classic": "Vælg selv Onsdags Lotto",
+          "Lightning": "Lyn Onsdags Lotto",
+          "Lucky": "Lykke Onsdags Lotto",
+          "System": "System Onsdags Lotto",
+          "Unknown": ""
+        },
+        "VikingLotto": {
+          "Classic": "Vælg selv Vikinglotto",
+          "Lightning": "Lyn Vikinglotto",
+          "Lucky": "Lykke Vikinglotto",
+          "System": "System  Vikinglotto",
+          "Unknown": ""
+        }
+      },
+      "Prizes": {
+        "Headline": "PRÆMIEBON",
+        "Name": "{amount} rigtige",
+        "NoWinnings": "Desværre ingen gevinst.",
+        "TotalWinnings": "TOTAL GEVINST:",
+        "WinningAmount": "Beløb",
+        "WinningCount": "Antal",
+        "WinningDate": "Trækning: uge {week} - ",
+        "WinningName": "Præmie"
+      },
+      "ToggleRows": {
+        "HideRows": "Skjul rækker",
+        "ShowRows": "Se alle rækker"
+      },
+      "VikingLotto": {
+        "Row": "række",
+        "Rows": "antal rækker"
+      }
+    },
+    "VikingLotto": {
+      "SubscriptionValidationOverlay": {
+        "Body": "For at oprette et PLUS abonnement skal du min. vælge 10 rækker. Hvis du vil have flere skal det altid være 10 rækker mere.",
+        "Dismiss": "Ok",
+        "Header": "PLUS tilmelding"
+      },
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "Processing": "Gennemfører køb...",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "GenerateRowsErrorOverlay": {
+        "Body": "Der er sket en fejl.",
+        "Dismiss": "Prøv igen",
+        "Header": "Hov!"
+      },
+      "JokerOverlay": {
+        "Button": "{totalJokerPrice} kr. - Ja tak!",
+        "ButtonWeekly": "{totalJokerPrice} kr. pr. uge - Ja tak!",
+        "Description": "Skal du have Joker? Der er {poolSizeWednesday} mio. i puljen onsdag og {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlySaturday": "Skal du have Joker med? Der er {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlyWednesday": "Skal du have Joker med? Der er {poolSizeWednesday} mio. i puljen onsdag. For kun {jokerPrice} kr. pr. Joker.",
+        "MinPoolSize": "min. 2 mio.",
+        "NoJoker": "Nej tak, ingen Joker!",
+        "PoolSize": "15 mio.",
+        "Saturday": "Lørdag",
+        "Wednesday": "Onsdag"
+      },
+      "ToggleJoker": {
+        "StakePool": "{jokerStake} kr. for Joker. Puljen er {poolPrize} kr."
+      },
+      "WinningNumbers": {
+        "DateOptionPrefix": "Trækning den",
+        "DisclaimerInfoText": "OBS! Kun danske Vikinglotto-vindere er angivet.",
+        "EmptyDrawList": "Første Vikinglotto trækning er d. 24. maj 2017",
+        "Numbers": "{amount} rigtige",
+        "PrizeHeading": "Vindertal",
+        "PrizePostfix": "Tjek om det er dig der har vundet",
+        "PrizeSuffix": "kr.",
+        "ResultsCorrectNumbers": "Antal rigtige",
+        "ResultsPrize": "Gevinst",
+        "ResultsWinners": "Danske vindere",
+        "SaturdayJokerText": "Lørdag",
+        "WednesdayJokerText": "Onsdag",
+        "WinningNumbers": "Vindertal",
+        "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+        "BonusNumbers": "Vikingtal",
+        "CorrectJokerNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "7",
+          "Id2": "6",
+          "Id3": "5",
+          "Id4": "4",
+          "Id5": "3",
+          "Id6": "2"
+        },
+        "CorrectNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "6 + 1",
+          "Id2": "6",
+          "Id3": "5 + 1",
+          "Id4": "5",
+          "Id5": "4 + 1",
+          "Id6": "4",
+          "Id7": "3"
+        }
+      },
+      "NumbersPickerButtons": {
+        "NumbersFooterClear": "RYD RÆKKE",
+        "NumbersFooterAuto": "UDFYLD RESTEN"
+      },
+      "ConfirmStep": {
+        "DepositHeader": "INDSÆT PENGE",
+        "DepositButton": "GÅ TIL INDBETALING",
+        "DepositText": "Du har desværre ikke penge nok på din konto til at foretage et køb. Sæt flere ind og vind!",
+        "Draw": "Trækning:",
+        "DrawDateTo": "til",
+        "JokerAnd": "og",
+        "JokerSaturday": "lørdag",
+        "JokerWednesday": "onsdag",
+        "JokerWith": "Med",
+        "RebuyCouponNotFoundDescription": "Den valgte kupon til genkøb kunne ikke findes.",
+        "RebuyCouponNotFoundTitle": "Kupon ikke fundet",
+        "ReceiptTitle": "Kvittering",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "DrawPluralis": "Trækninger:",
+        "DrawSingular": "Trækning:",
+        "GameType": "Spiltype:",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "Header": "Du spiller {rows} <br> {playType} {system} i {draws}",
+        "OverlayErrorBody": "Der er sgu gået noget galt! Det jammer ikke.",
+        "OverlayErrorConfirm": "OKAY",
+        "OverlayErrorHeader": "HOVSA!",
+        "Row": "Række",
+        "ShowAllRowsButtonText": "Vis alle rækker",
+        "SystemGameChosenNumbersTitle": "Valgte systemtal",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår",
+        "Header": {
+          "Headline": "Bekræft Køb",
+          "Text": "Du spiller {rows} {playType} {system} i {draws}"
+        },
+        "ReceiveWinnerMessage": {
+          "EmailText": "ja tak, send e-mail",
+          "Headline": "vinderbesked",
+          "SmsText": "ja tak, send sms",
+          "Subheadline": "Skal vi sende dig en besked når du vinder?"
+        }
+      },
+      "VikingLottoClassic": {
+        "NavigationCreateNewRow": "Du kan tilføje en ny ved at klikke på + ovre til højre.",
+        "OptionSelectorRows": "Antal rækker:",
+        "OverlayDeleteBody": "Du har ret. Denne række er vist ikke den af dine rækker med den største vinderchance. Men hvem ved...",
+        "OverlayDeleteCancel": "Annuller",
+        "OverlayDeleteConfirm": "Slet Række",
+        "OverlayDeleteHeader": "Slet række?",
+        "RowsListCreateNewRowButton": "Tilføj ny række",
+        "RowsListErrorText": "Vælg minimum et tal mere.",
+        "RowsListErrorTitle": "FEJL PÅ RÆKKE",
+        "RowsListHeaderAmountPluralis": "DU HAR OPRETTET {rows} RÆKKER",
+        "RowsListHeaderAmountSingular": "DU HAR OPRETTET 1 RÆKKE",
+        "RowsListRow": "Række"
+      },
+      "VikingLottoLightning": {
+        "ChooseRows": "Vælg antal rækker her.",
+        "Headline": "Lyn VikingLotto",
+        "Row": "række",
+        "Rows": "Rækker"
+      },
+      "JokerTypes": {
+        "JokerSaturday": "Med Joker Lørdag",
+        "JokerWednesday": "Med Joker Onsdag",
+        "JokerWednesdayAndSaturday": "Med Joker Onsdag og Lørdag"
+      },
+      "PurchaseBar": {
+        "PlayRowsEveryWeek": "SOM ABONNEMENT",
+        "Processing": "Forbereder køb...",
+        "SubmitButtonPlus": "KØB NU",
+        "PlayRowsFor": "SPIL RÆKKERNE ",
+        "NumberOfDrawsSingular": "{draws} UGE",
+        "NumberOfDrawsPluralis": "{draws} UGER",
+        "DrawsDropdownHeader": "ANTAL UGER",
+        "SubmitButton": "{totalstake} KR - KØB NU"
+      },
+      "SelectDropdown": {
+        "Placeholder": "Vælg indstilling ..."
+      },
+      "PlayTypes": {
+        "VikingLottoClassic": "Vælg Selv Vikinglotto",
+        "VikingLottoLightning": "Lyn Vikinglotto",
+        "VikingLottoLucky": "Lykke Vikinglotto",
+        "VikingLottoSystem": "Vikinglotto System"
+      },
+      "RowHeader": {
+        "Description": "Vælg {gameNumbersPerRow} Hovedtal og {gameVikingNumbersPerRow} Vikingtal",
+        "DescriptionAllNumbersSelected": "Rækken udfyldt",
+        "Of": "af",
+        "Row": "Række"
+      },
+      "TypeSwitch": {
+        "Chance": "CHANCE",
+        "Mathematical": "MATEMATISK",
+        "Reduced": "REDUCERET"
+      },
+      "VikingLottoClosed": {
+        "GameNotAvailableHeader": "Det er noget galt med spillet, kom tilbage senere",
+        "GameNotAvailableText": "Vi arbejder på at få spillet op at køre igen",
+        "NoOpenDrawHeader": "Vi er ved at trække ugens vindertal.",
+        "NoOpenDrawText": "Spil med igen fra kl. 21.",
+        "FrontpageLightning": {
+          "GameNotAvailableHeader": "Beklager",
+          "GameNotAvailableText_1": "Vi har tekniske problemer",
+          "GameNotAvailableText_2": "Vi arbejder på at få spillet op at køre igen",
+          "NoOpenDrawHeader": "Trækning",
+          "NoOpenDrawText_1": "Vi er ved at trække ugens vindertal.",
+          "NoOpenDrawText_2": "Spil med igen fra kl. 21. "
+        }
+      },
+      "Countdown": {
+        "CountdownDisabledHeading": "Der er ingen trækning i dag :/",
+        "NoOpenDrawCountdownHeading": "Viking Lotto åbner igen om",
+        "ReceiptCountdownHeading": "Vikinglotto tallene trækkes om"
+      },
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "ClientConnectionRefusedBody": "Gå til Min side for at tjekke dit køb.",
+        "ClientConnectionRefusedDismiss": "Ok",
+        "ClientConnectionRefusedHeader": "Forbindelsen afbrudt",
+        "ClientConnectionTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "ClientConnectionTimeoutDismiss": "Ok",
+        "ClientConnectionTimeoutHeader": "Forbindelsen afbrudt",
+        "DrawMismatchDismiss": "Ok",
+        "GameProviderTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "GameProviderTimeoutDismiss": "Ok",
+        "GameProviderTimeoutHeader": "Forbindelsen afbrudt",
+        "NoOpenDrawDismiss": "Ok",
+        "PlayerRestrictedFromBuyDismiss": "Ok",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "TechnicalErrorDismiss": "Ok",
+        "NoOpenDrawHeader": "Hovsa!",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      },
+      "ShakeOverlay": {
+        "ShakeOverlayText": "Ryst din mobil og få gode tal på rækken."
+      },
+      "VikingLottoLucky": {
+        "OptionSelectorTitle": "Antal rækker:",
+        "RowDescription": "VÆLG 6 TAL",
+        "RowHeader": "Vælg min. 1 Hovedtal eller Vikingtal",
+        "InfoTab": {
+          "GameDescription": "De resterende tal vælger systemet for dig tilfældigt.",
+          "Header": "Lykke Vikinglotto {rows} rækker",
+          "SystemDescription": "Når du spiller Lykke Vikinglotto, skal du vælge min. 1 Hovedtal eller Vikingtal."
+        }
+      },
+      "VikingLottoSystem": {
+        "OptionSelectorTitle": "System:",
+        "RowDescription": "I alt {rows} rækker",
+        "RowHeader": "Vælg {numbers} Hovedtal og {vikingNumbers} Vikingtal",
+        "KeyTab": {
+          "CloseFoldableButton": "Skjul rækker",
+          "ExpandFoldableButton": "Vis alle rækker",
+          "Header": "Systembeskrivelse {systemName}",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintHeader": "SYSTEM",
+          "PrintMyNumbers": "Mine tal:",
+          "PrintRow": "Række",
+          "Row": "Række {number}",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over systemnøglerne i det valgte system.",
+          "SubheaderNumbersPicked": "I tabellen nedenfor kan du se en oversigt over samtlige spillede rækker i det valgte system.",
+          "TableHeaderNumber": "Tal",
+          "TableHeaderRow": "Række"
+        },
+        "ProfitGuaranteeTab": {
+          "BottomExplanation": "Tabellen angiver anden-, fjerde-, sjette- og syvendepræmier, dvs. uden rigtigt Vikingtal. Hvis du også har et rigtigt Vikingtal, så rykker præmierne et niveau op, dvs. til hhv. første-, tredje- og femtepræmien.  Syvendepræmier er de samme med og uden rigtigt Vikingtal.",
+          "CorrectNumbers": "rigtige",
+          "Frequency": "Hyppighed",
+          "Header": "Gevinstgaranti {systemName}",
+          "NumberOfPrizes": "Antal {number}. præmier",
+          "PrintAdditionalNumbers": "Tillægstal",
+          "PrintCorrectNumbers": "{number} rigtige",
+          "PrintFifthPrize": "5. præmie",
+          "PrintFirstPrize": "1. præmie",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintFourthPrize": "4. præmie",
+          "PrintFrequency": "Hyppighed",
+          "PrintHeader": "GEVINST",
+          "PrintNumberOfCorrectNumbers": "Antal rigtige",
+          "PrintNumberOfPrizes": "Antal præmier",
+          "PrintSecondPrize": "2. præmie",
+          "PrintThirdPrize": "3. præmie",
+          "PrintWinningNumbers": "Vindertal",
+          "PrintWinningsExplanation": "I tabellen nedenfor kan du se hvor mange gevinster du får, hvis du vinder på det valgte system.",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over, hvor mange gevinster du får, hvis du vinder på {systemName}.",
+          "WinningNumbers": "{number} RIGTIGE",
+          "WinningNumbersAdditional": "{number} RIGTIGE + {additional} TILLÆGSTAL"
+        },
+        "InfoTab": {
+          "Chance": "Når du spiller Chance systemer, har du ingen garanti for præmie, men du vil næsten altid have en gevinst, hvis du har de 6 vindertal i opstillingen rigtige. Chance systemer giver dig mulighed for at spille på rigtig mange tal. Hvis du også har et rigtigt Vikingtal, så rykker præmierne et niveau op, dvs. til hhv. første-, tredje- og femtepræmien. Syvendepræmier er de samme med og uden rigtigt Vikingtal.",
+          "GameDescription": "I system {system} skal du vælge {numbers} Hovedtal og 1 Vikingtal. De spilles på {rows} rækker.",
+          "Header": "Systembeskrivelse {system}",
+          "Mathematic": "På et Matematisk system har du 2. præmiegaranti, hvis du har de 6 vindertal rigtige i opstillingsrækken. Det skyldes at du spiller samtlige kombinationer, der er med de valgte tal. Hvis du også har et rigtigt Vikingtal, så rykker præmierne et niveau op, dvs. til hhv. første-, tredje- og femtepræmien. Syvendepræmier er de samme med og uden rigtigt Vikingtal.",
+          "Reduced": "Når du spiller Reducerede systemer har du garanti for en gevinst på mindst 4 rigtige, hvis du har de 6 vindertal i opstillingen rigtige. Når der ikke er garanti for 6 rigtige, skyldes det at systemet er reduceret. Hvis du også har et rigtigt Vikingtal, så rykker præmierne et niveau op, dvs. til hhv. første-, tredje- og femtepræmien. Syvendepræmier er de samme med og uden rigtigt Vikingtal.",
+          "Step1": "Vælg det Vikinglotto-system du ønsker at spille på listen.",
+          "Step2": "Vælg {numbers} Hovedtal og 1 Vikingtal.",
+          "Step3": "Klik på \"KØB NU\" for at købe spillet.",
+          "Step4": "Du kan se og printe dine spillede rækker, når du har købt spillet.",
+          "SystemDescription": "På et matematisk system spiller du samtlige kombinationer med de valgte tal.",
+          "ThisIsHowYouPlay": "Sådan spiller du {system}"
+        }
+      },
+      "ReceiptStep": {
+        "CountdownFallback": "Der er ingen trækning i dag :/",
+        "GotoCoupon": "Se dine Vikinglotto-rækker",
+        "Heading": "Dit {playType}-køb er gennemført!   ",
+        "Hours": "timer",
+        "Minutes": "min.",
+        "Seconds": "sek.",
+        "CouponOverlay": {
+          "closeButton": "Luk",
+          "printButton": "Print"
+        },
+        "SubscribeReminder": {
+          "Error": "Der er desværre sket en fejl.",
+          "ErrorUserUnauthorized": "Der er desværre sket en fejl. Er du logget ind?",
+          "KeepRemindMe": "Ja tak, påmind mig fortsat gerne når mine fleruges Vikinglottospil er udløbet.",
+          "RemindMe": "Ja tak, påmind mig gerne når mine fleruges Vikinglottospil er udløbet.",
+          "SuccessDontRemindMe": "Vi har opdateret dine præferencer. Du vil ikke modtage en påmindelse når dine fleruges Vikinglottospil er udløbet.",
+          "SuccessRemindMe": "Vi har opdateret dine præferencer. Du vil modtage en påmindelse når dine fleruges Vikinglottospil er udløbet."
+        }
+      },
+      "RotateScreen": {
+        "Bottom": "Så bliver Vikinglotto sjovere!",
+        "Top": "Vend telefonen."
+      }
+    },
+    "Lotto": {
+      "NumbersPickerButtons": {
+        "NumbersFooterAuto": "UDFYLD RESTEN",
+        "NumbersFooterClear": "RYD RÆKKE"
+      },
+      "ConfirmBar": {
+        "BackButton": "TILBAGE",
+        "Processing": "Gennemfører køb...",
+        "SubmitButton": "{totalPrice} KR - BEKRÆFT KØB"
+      },
+      "GenerateRowsErrorOverlay": {
+        "Body": "Der er sket en fejl!",
+        "Dismiss": "Prøv igen ",
+        "Header": "Hov!"
+      },
+      "JokerOverlay": {
+        "Button": "{totalJokerPrice} kr. - Ja tak!",
+        "ButtonWeekly": "{totalJokerPrice} kr. pr. uge - Ja tak!",
+        "Description": "Skal du have Joker med? Der er {poolSizeWednesday} mio. i puljen onsdag og {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlySaturday": "Skal du have Joker med? Der er {poolSizeSaturday} mio. i puljen lørdag. For kun {jokerPrice} kr. pr. Joker.",
+        "DescriptionOnlyWednesday": "Skal du have Joker med? Der er {poolSizeWednesday} mio. i puljen onsdag. For kun {jokerPrice} kr. pr. Joker.",
+        "MinPoolSize": "min. 2 ",
+        "NoJoker": "Nej tak, ingen Joker!",
+        "PoolSize": "15 mio.",
+        "Saturday": "Lørdag",
+        "Wednesday": "Onsdag"
+      },
+      "OverviewTable": {
+        "Area": "By/omraade",
+        "Prizes": "Gevinst",
+        "Winners": "Millionaerer"
+      },
+      "SubscriptionValidationOverlay": {
+        "Body": "For at oprette et PLUS abonnement skal du min. vælge 10 rækker. Hvis du vil have flere skal det altid være 10 rækker mere.",
+        "Dismiss": "Ok",
+        "Header": "PLUS tilmelding"
+      },
+      "ToggleJoker": {
+        "StakePool": "{jokerStake} mio. kr. for Joker. Puljen er {poolPrize} kr."
+      },
+      "ConfirmStep": {
+        "DepositButton": "GÅ TIL INDBETALING",
+        "DepositHeader": "INDSÆT PENGE",
+        "DepositText": "Du har desværre ikke penge nok på din konto til at foretage et køb. Sæt flere ind og vind!",
+        "DrawPluralis": "Trækninger",
+        "DrawSingular": "Trækning",
+        "GameVendor": "Spillet udbydes af Danske Lotteri Spil A/S",
+        "Header": "Du spiller {rows}  <br/>  {playType} {system} i {draws}",
+        "JokerAnd": "og",
+        "JokerRowTitle": "Jokertal",
+        "JokerSaturday": "lørdag",
+        "JokerWednesday": "onsdag",
+        "JokerWith": "Med",
+        "OverlayErrorConfirm": "OK!",
+        "RebuyCouponNotFoundDescription": "Den valgte kupon til genkøb kunne ikke findes.",
+        "RebuyCouponNotFoundTitle": "Kupon ikke fundet",
+        "ReceiptTitle": "Kvittering",
+        "RowTitle": "Række",
+        "ShowAllRowsButtonText": "Vis alle rækker",
+        "SystemGameChosenNumbersTitle": "Valgte systemtal",
+        "TermsLink": "https://danskespil.dk/regler_og_vilkaar/vilkaar/vilkaar-dlo",
+        "TotalPrice": "Totalindskud:",
+        "TotalPriceCurrency": "kr.",
+        "ViewTerms": "Se vilkår",
+        "Header": {
+          "Headline": "Bekræft Køb",
+          "Text": "Du spiller {rows} {playType} {system} i {draws}"
+        },
+        "ReceiveWinnerMessage": {
+          "EmailText": "ja tak, send e-mail",
+          "Headline": "Få vinderbesked",
+          "SmsText": "ja tak, send sms",
+          "Subheadline": "Skal vi sende dig en besked når du vinder?"
+        }
+      },
+      "Countdown": {
+        "CountdownDisabledHeading": "Der er ingen trækning i dag :/",
+        "NoOpenDrawCountdownHeading": "",
+        "ReceiptCountdownHeading": "Vi trækker Lørdags Lotto-tallene om"
+      },
+      "LottoLightning": {
+        "ChooseRows": "Vælg antal rækker herunder:",
+        "Headline": "Lyn Lotto",
+        "Row": "række",
+        "Rows": "Rækker"
+      },
+      "LottoReceiptStep": {
+        "CountdownFallback": "Der er ingen trækning i dag :/",
+        "CountdownHeading": "Vi trækker LOTTO-tallene om",
+        "GotoCoupon": "Se dine spil",
+        "Heading": "Dit {playType}-køb er gennemført! ",
+        "CouponOverlay": {
+          "closeButton": "Luk",
+          "printButton": "Print"
+        },
+        "SubscribeReminder": {
+          "Error": "Der er desværre sket en fejl.",
+          "ErrorUserUnauthorized": "Der er desværre sket en fejl. Er du logget ind?",
+          "KeepRemindMe": "Ja tak, påmind mig fortsat gerne når mine fleruges Lottospil er udløbet.",
+          "RemindMe": "Ja tak, påmind mig gerne når mine fleruges Lottospil er udløbet.",
+          "SuccessDontRemindMe": "Vi har opdateret dine præferencer. Du vil ikke modtage en påmindelse når dine fleruges Lottospil er udløbet.",
+          "SuccessRemindMe": "Vi har opdateret dine præferencer. Du vil modtage en påmindelse når dine fleruges Lottospil er udløbet."
+        }
+      },
+      "Wednesday": {
+        "OverviewTable": {
+          "Area": "By/omraade",
+          "Prizes": "Gevinst",
+          "Winners": "Millionaerer"
+        },
+        "WinningNumbers": {
+          "DateOptionPrefix": "Trækning den",
+          "DisclaimerInfoText": "OBS! Kun danske vindere er angivet",
+          "ExpandButton": "Se Vindertal",
+          "LottoResultsCorrectNumbers": "Antal rigtige",
+          "LottoResultsPrize": "Gevinst",
+          "LottoResultsWinners": "Antal vindere",
+          "Numbers": "{amount} rigtige",
+          "PrizeHeading": "Vindertal",
+          "PrizePostfix": "Tjek om det er dig der har vundet",
+          "PrizeSuffix": "kr.",
+          "SuperNumber": "Supertal",
+          "WinningNumbers": "Vindertal",
+          "BonusNumbers": "Tillægstal",
+          "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+          "CorrectJokerNumbers": {
+            "CorrectNumber": "rigtige",
+            "Id1": "7",
+            "Id2": "6",
+            "Id3": "5",
+            "Id4": "4",
+            "Id5": "3",
+            "Id6": "2"
+          },
+          "CorrectNumbers": {
+            "CorrectNumber": "rigtige",
+            "Id1": "6",
+            "Id2": "5 + t",
+            "Id3": "5",
+            "Id4": "4",
+            "Id5": "3"
+          }
+        }
+      },
+      "SelectDropdown": {
+        "Placeholder": "Vælg indstilling ..."
+      },
+      "LottoSystem": {
+        "RowDescription": "I ALT {rows} RÆKKER",
+        "RowHeader": "VÆLG {number} TAL",
+        "RowHeaderDescriptionAllNumbersSelected": "Rækken udfyldt",
+        "System": "SYSTEM:",
+        "InfoTab": {
+          "Chance": "Når du spiller Chance systemer, har du ingen garanti for præmie, men du vil næsten altid have en gevinst, hvis du har de 7 vindertal i opstillingen rigtige. Chance systemer giver dig mulighed for at spille på rigtig mange tal.",
+          "GameDescription": "I system {system} skal du vælge {numbers} tal. De spilles på {rows} rækker.",
+          "Header": "Systembeskrivelse {system}",
+          "Mathematic": "På et Matematisk system har du 1. præmiegaranti, hvis du har de 7 vindertal rigtige i opstillingsrækken. Det skyldes at du spiller samtlige kombinationer, der er med de valgte tal.",
+          "Reduced": "Når du spiller Reducerede systemer har du garanti for en gevinst på mindst 5 rigtige, hvis du har de 7 vindertal i opstillingen rigtige. Når der ikke er garanti for 7 rigtige, skyldes det at systemet er reduceret.",
+          "Step1": "Vælg det Lotto-system du ønsker at spille på listen.",
+          "Step2": "Vælg dine {numbers} tal.",
+          "Step3": "Klik på \"KØB NU\" for at købe spillet.",
+          "Step4": "Du kan se og printe dine spillede rækker, når du har købt spillet.",
+          "ThisIsHowYouPlay": "SÅDAN SPILLER DU {system}"
+        },
+        "KeyTab": {
+          "CloseFoldableButton": "Skjul rækker",
+          "ExpandFoldableButton": "Vis alle rækker",
+          "Header": "SYSTEMNØGLE {systemName}",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintHeader": "SYSTEM",
+          "PrintMyNumbers": "Mine tal:",
+          "PrintRow": "Række",
+          "Row": "Række {number}",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over systemnøglerne i det valgte system.",
+          "SubheaderNumbersPicked": "I tabellen nedenfor kan du se en oversigt over samtlige spillede rækker i det valgte system.",
+          "TableHeaderNumber": "Tal",
+          "TableHeaderRow": "Række"
+        },
+        "ProfitGuaranteeTab": {
+          "CorrectNumbers": "rigtige",
+          "Frequency": "Hyppighed",
+          "Header": "GARANTI {systemName}",
+          "NumberOfPrizes": "Antal {number}. præmier",
+          "PrintAdditionalNumbers": "Tillægstal",
+          "PrintCorrectNumbers": "{number} rigtige",
+          "PrintFifthPrize": "5. præmie",
+          "PrintFirstPrize": "1. præmie",
+          "PrintFooter1": "Med forbehold for fejl i udskriften.",
+          "PrintFooter2": "Dette er alene en udskrift af systemets rækker, og gælder ikke som kvittering for købt spil.",
+          "PrintFourthPrize": "4. præmie",
+          "PrintFrequency": "Hyppighed",
+          "PrintHeader": "GEVINST",
+          "PrintNumberOfCorrectNumbers": "Antal rigtige",
+          "PrintNumberOfPrizes": "Antal præmier",
+          "PrintSecondPrize": "2. præmie",
+          "PrintThirdPrize": "3. præmie",
+          "PrintWinningNumbers": "Vindertal",
+          "PrintWinningsExplanation": "I tabellen nedenfor kan du se hvor mange gevinster du får, hvis du vinder på det valgte system.",
+          "Subheader": "I tabellen nedenfor kan du se en oversigt over, hvor mange gevinster du får, hvis du vinder på {systemName}.",
+          "WinningNumbers": "{number} RIGTIGE",
+          "WinningNumbersAdditional": "{number} RIGTIGE + {additional} TILLÆGSTAL"
+        }
+      },
+      "LottoClosed": {
+        "GameNotAvailableHeader": "Det er noget galt med spillet, kom tilbage senere",
+        "GameNotAvailableText": "Vi arbejder på at få spillet op at køre igen",
+        "NoOpenDrawHeader": "Vi er ved at trække ugens vindertal.",
+        "NoOpenDrawText": "Spil med igen fra kl. 21.",
+        "FrontpageLightning": {
+          "GameNotAvailableHeader": "Beklager",
+          "GameNotAvailableText_1": "Vi har tekniske problemer",
+          "GameNotAvailableText_2": "Vi arbejder på at få spillet op at køre igen",
+          "NoOpenDrawHeader": "Trækning",
+          "NoOpenDrawText_1": "Vi er ved at finde ugens vindertal.",
+          "NoOpenDrawText_2": "Spil med igen fra kl. 21."
+        }
+      },
+      "PlayTypes": {
+        "LottoClassic": "Vælg selv Lotto",
+        "LottoLightning": "Lyn Lotto",
+        "LottoLucky": "Lykke Lotto",
+        "LottoSystem": "System Lotto"
+      },
+      "PurchaseBar": {
+        "PlayRowsEveryWeek": "SOM ABONNEMENT",
+        "Processing": "Forbereder køb...",
+        "SubmitButtonPlus": "KØB NU",
+        "PlayRowsFor": "SPIL RÆKKERNE ",
+        "NumberOfDrawsSingular": "{draws} UGE",
+        "NumberOfDrawsPluralis": "{draws} UGER",
+        "DrawsDropdownHeader": "ANTAL UGER",
+        "SubmitButton": "{totalstake} KR - KØB NU"
+      },
+      "PurchaseErrors": {
+        "TechnicalErrorHeader": "Teknisk fejl",
+        "ClientConnectionRefusedHeader": "Forbindelsen afbrudt",
+        "DrawMismatchDismiss": "Ok",
+        "NoOpenDrawDismiss": "Ok",
+        "PlayerRestrictedFromBuyDismiss": "Ok",
+        "TechnicalErrorBody": "Der er opstået en teknisk fejl. Beklager!",
+        "TechnicalErrorDismiss": "Ok",
+        "ClientConnectionRefusedDismiss": "Ok",
+        "NoOpenDrawHeader": "Hovsa!",
+        "ClientConnectionRefusedBody": "Gå til Min side for at tjekke dit køb.",
+        "ClientConnectionTimeoutHeader": "Forbindelsen afbrudt",
+        "ClientConnectionTimeoutDismiss": "Ok",
+        "NoOpenDrawBody": "Trækningen er lukket.",
+        "DrawMismatchHeader": "Hovsa!",
+        "ClientConnectionTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "DrawMismatchBody": "Trækningen er lukket - men der er en ny åbnet.",
+        "GameProviderTimeoutBody": "Gå til Min side for at tjekke dit køb.",
+        "GameProviderTimeoutHeader": "Forbindelsen afbrudt",
+        "GameProviderTimeoutDismiss": "Ok",
+        "PlayerRestrictedFromBuyHeader": "Spilprofil kan ikke købe",
+        "PlayerRestrictedFromBuyBody": "Det er ikke muligt at købe spil fra din spilkonto. Kontakt Kundecentret for mere info."
+      },
+      "ShakeOverlay": {
+        "ShakeOverlayText": "Ryst din mobil og få gode tal på rækken."
+      },
+      "TypeSwitch": {
+        "Chance": "CHANCE",
+        "Mathematical": "MATEMATISK",
+        "Reduced": "REDUCERET"
+      },
+      "WinningNumbers": {
+        "CollapseButton": "Luk Vindertal",
+        "DateOptionPrefix": "Trækning den",
+        "DisclaimerInfoText": "OBS! Kun danske vindere er angivet",
+        "ExpandButton": "Se Vindertal",
+        "JokerResultsCorrect2": "2 rigtige",
+        "JokerResultsCorrect3": "3 rigtige",
+        "JokerResultsCorrect4": "4 rigtige",
+        "JokerResultsCorrect5": "5 rigtige",
+        "JokerResultsCorrect6": "6 rigtige",
+        "JokerResultsCorrect7": "7 rigtige",
+        "JokerResultsCorrectNumbers": "Antal rigtige",
+        "JokerResultsPrize": "Gevinst",
+        "JokerResultsWinners": "Antal vindere",
+        "LottoResultsCorrect4": "4 rigtige",
+        "LottoResultsCorrect5": "5 rigtige",
+        "LottoResultsCorrect6": "6 rigtige",
+        "LottoResultsCorrect6plus1": "6 rigtige + 1",
+        "LottoResultsCorrect7": "7 rigtige",
+        "LottoResultsCorrectNumbers": "Antal rigtige",
+        "LottoResultsPrize": "Gevinst",
+        "LottoResultsWinners": "Antal vindere",
+        "Numbers": "{amount} rigtige",
+        "PrizeHeading": "Vindertal",
+        "PrizePostfix": "Tjek om det er dig der har vundet",
+        "PrizeSuffix": "kr.",
+        "SuperNumber": "Supertal",
+        "WinningNumbers": "Vindertal",
+        "WinningNumbersNotReady": "Dagens vindertal er endnu ikke klar - kig forbi senere!",
+        "BonusNumbers": "Tillægstal",
+        "LottoAdditionalDrawLabel": "Millionær-\ngaranti",
+        "LottoAdditionalDrawNumberOfWinners": "2",
+        "LottoAdditionalDrawAmount": "1000000",
+        "CorrectJokerNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "7",
+          "Id2": "6",
+          "Id3": "5",
+          "Id4": "4",
+          "Id5": "3",
+          "Id6": "2"
+        },
+        "CorrectNumbers": {
+          "CorrectNumber": "rigtige",
+          "Id1": "7",
+          "Id2": "6+t",
+          "Id3": "6",
+          "Id4": "5",
+          "Id5": "4"
+        }
+      },
+      "LottoClassic": {
+        "NavigationCreateNewRow": "Du kan tilføje en ny ved at klikke på + ovre til højre.",
+        "NumbersHeaderAutoDesktop": "UDFYLD RESTEN",
+        "NumbersHeaderAutoMobile": "UDFYLD RESTEN",
+        "NumbersHeaderClearDesktop": "RYD RÆKKE",
+        "NumbersHeaderClearMobile": "RYD RÆKKE",
+        "OverlayDeleteBody": "Du har ret. Denne række er vist ikke den af dine rækker med den største vinderchance. Men hvem ved...",
+        "OverlayDeleteCancel": "Annuller",
+        "OverlayDeleteConfirm": "Slet række",
+        "OverlayDeleteHeader": "Slet række?",
+        "RowHeaderDescription": "Vælg {gameNumbersPerRow} tal",
+        "RowHeaderDescriptionAllNumbersSelected": "Rækken udfyldt",
+        "RowHeaderOf": "AF",
+        "RowHeaderRow": "RÆKKE",
+        "RowsListCreateNewRowButton": "OPRET NY RÆKKE",
+        "RowsListHeaderAmountPluralis": "DU HAR OPRETTET {rows} RÆKKER",
+        "RowsListHeaderAmountSingular": "DU HAR OPRETTET 1 RÆKKE",
+        "RowsListRow": "Række"
+      },
+      "RotateScreen": {
+        "Bottom": "Så bliver Lotto sjovere!",
+        "Top": "Vend telefonen."
+      },
+      "LottoLucky": {
+        "AmountOfRows": "Antal rækker:",
+        "RowHeader": "VÆLG 1-6 LYKKETAL - RESTEN UDFYLDES AUTOMATISK",
+        "InfoTab": {
+          "GameAdditionalInformation": "De resterende tal vælger systemet for dig tilfældigt.",
+          "GameDescription": "En Lykke Lotto {rows} rækker koster {totalStake} kr {joker}.",
+          "GameInformation": "Du skal vælge mellem 1 og 6 lykketal, som vil indgå på alle rækker, du ønsker at spille.",
+          "Header": "Lykke Lotto {rows} rækker"
+        }
+      }
+    },
+    "NumberGames": {
+      "News": {
+        "NewsView": {
+          "ShareNews": "Del denne nyhed"
+        },
+        "NewsList": {
+          "ReadNews": "Læs nyhed"
+        }
+      },
+      "StorageCheck": {
+        "Body": "Du har bjælder.",
+        "Dismiss": "OKAY, JOHN!",
+        "Header": "BLOMMER!"
+      }
+    }
+  }
+}

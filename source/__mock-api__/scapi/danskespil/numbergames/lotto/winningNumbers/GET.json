@@ -1,0 +1,104 @@
+{
+  "lottoSaturday": {
+    "prizes": [{
+      "id": 1,
+      "name": "7 rigt.",
+      "amount": 0.0,
+      "numberOfWinners": 0
+    }, {
+      "id": 2,
+      "name": "6 rigt.+ t",
+      "amount": 155585.0,
+      "numberOfWinners": 4
+    }, {
+      "id": 3,
+      "name": "6 rigt.",
+      "amount": 2351.0,
+      "numberOfWinners": 134
+    }, {
+      "id": 4,
+      "name": "5 rigt.",
+      "amount": 114.0,
+      "numberOfWinners": 6385
+    }, {
+      "id": 5,
+      "name": "4 rigt.",
+      "amount": 50.0,
+      "numberOfWinners": 100840
+    }, {
+      "id": 6,
+      "name": "Million vinder",
+      "amount": 1000000.0,
+      "numberOfWinners": 2
+    }, {
+      "id": 101,
+      "name": "7/7 (1/10)",
+      "amount": 0.0,
+      "numberOfWinners": 0
+    }, {
+      "id": 102,
+      "name": "6/7 + t (1/10)",
+      "amount": 15558.5,
+      "numberOfWinners": 0
+    }, {
+      "id": 103,
+      "name": "6/7 (1/10)",
+      "amount": 235.1,
+      "numberOfWinners": 0
+    }, {
+      "id": 104,
+      "name": "5/7 (1/10)",
+      "amount": 11.4,
+      "numberOfWinners": 0
+    }, {
+      "id": 105,
+      "name": "4/7 (1/10)",
+      "amount": 5.0,
+      "numberOfWinners": 0
+    }, {
+      "id": 106,
+      "name": "Million Winner (1/10)",
+      "amount": 100000.0,
+      "numberOfWinners": 0
+    }],
+    "bonusNumber": 8,
+    "date": "2019-05-18",
+    "winningNumbers": [4, 11, 17, 18, 21, 22, 35]
+  },
+  "jokerSaturday": {
+    "prizes": [{
+      "id": 1,
+      "name": "7 rigt.",
+      "amount": 0.0,
+      "numberOfWinners": 0
+    }, {
+      "id": 2,
+      "name": "6 rigt.",
+      "amount": 81787.0,
+      "numberOfWinners": 2
+    }, {
+      "id": 3,
+      "name": "5 rigt.",
+      "amount": 16156.0,
+      "numberOfWinners": 5
+    }, {
+      "id": 4,
+      "name": "4 rigt.",
+      "amount": 1373.0,
+      "numberOfWinners": 65
+    }, {
+      "id": 5,
+      "name": "3 rigt.",
+      "amount": 170.0,
+      "numberOfWinners": 649
+    }, {
+      "id": 6,
+      "name": "2 rigt.",
+      "amount": 49.0,
+      "numberOfWinners": 6329
+    }],
+    "jokerType": "JokerSaturday",
+    "date": "2019-05-18",
+    "winningNumbers": [7, 5, 9, 3, 1, 7, 7]
+  }
+}
