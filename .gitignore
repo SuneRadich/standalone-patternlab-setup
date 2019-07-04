@@ -3,5 +3,4 @@ node_modules/
 dependencyGraph.json
 source/_data/region.json
 
-source/_patterns/00-meta/_region-script-bundle.mustache
-source/_patterns/00-meta/_region-style-bundle.mustache
+source/_patterns/00-meta/
