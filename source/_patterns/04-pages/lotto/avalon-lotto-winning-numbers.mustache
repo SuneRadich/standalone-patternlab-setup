@@ -1,0 +1,30 @@
+<div class="{{areaClass}}">
+
+  <div class="one-col">
+    <div class="avalon-cards card-layout-1">
+      <div class="cards__container">
+        <div class="cards">
+          {{#listItems.four}}
+          {{> molecules-CardOne }}
+          {{/listItems.four}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="avalon-winning-numbers">
+    {{> organisms-vindertal(brand: 'lotto') }}
+  </div>
+
+  <div class="one-col">
+  <div class="avalon-cards card-layout-3">
+    <div class="cards__container">
+      <div class="cards">
+        {{#listItems.two}}
+        {{> molecules-CardOne }}
+        {{/listItems.two}}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
