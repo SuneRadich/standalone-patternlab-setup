@@ -6,7 +6,7 @@
         <%-- Base64 image is an empty image to reduce png loads on mobile and tablet --%>
         <source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           media="(max-width: 1223px)" />
-        <img class="card-image__overlay" src="<%= game.MegaCardOverlayImage %>" alt="" />
+        <img class="card-image__overlay" src="{{ img.square.src }}" alt="" />
       </picture>
       <picture>
         <source srcset="http://placeimg.com/100/100/people" media="(max-width: 767px)" />
