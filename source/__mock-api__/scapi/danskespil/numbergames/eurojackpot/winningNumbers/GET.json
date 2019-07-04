@@ -1,0 +1,131 @@
+{
+  "prizes": [{
+    "id": 1,
+    "name": "5+2 rigt.",
+    "amount": 120076158.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 2,
+    "name": "5+1 rigt.",
+    "amount": 10431974.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 3,
+    "name": "5+0 rigt.",
+    "amount": 528582.0,
+    "numberOfWinners": 1
+  }, {
+    "id": 4,
+    "name": "4+2 rigt.",
+    "amount": 26270.0,
+    "numberOfWinners": 2
+  }, {
+    "id": 5,
+    "name": "4+1 rigt.",
+    "amount": 1332.0,
+    "numberOfWinners": 55
+  }, {
+    "id": 6,
+    "name": "4+0 rigt.",
+    "amount": 663.0,
+    "numberOfWinners": 105
+  }, {
+    "id": 7,
+    "name": "3+2 rigt.",
+    "amount": 390.0,
+    "numberOfWinners": 166
+  }, {
+    "id": 8,
+    "name": "2+2 rigt.",
+    "amount": 150.0,
+    "numberOfWinners": 2430
+  }, {
+    "id": 9,
+    "name": "3+1 rigt.",
+    "amount": 121.0,
+    "numberOfWinners": 2686
+  }, {
+    "id": 10,
+    "name": "3+0 rigt.",
+    "amount": 108.0,
+    "numberOfWinners": 4579
+  }, {
+    "id": 11,
+    "name": "1+2 rigt.",
+    "amount": 76.0,
+    "numberOfWinners": 12651
+  }, {
+    "id": 12,
+    "name": "2+1 rigt.",
+    "amount": 55.0,
+    "numberOfWinners": 37966
+  }, {
+    "id": 13,
+    "name": "EJP annuleret",
+    "amount": 0.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 101,
+    "name": "5+2 (1/10)",
+    "amount": 12007615.8,
+    "numberOfWinners": 0
+  }, {
+    "id": 102,
+    "name": "5+1 (1/10)",
+    "amount": 1043197.4,
+    "numberOfWinners": 0
+  }, {
+    "id": 103,
+    "name": "5+0 (1/10)",
+    "amount": 52858.2,
+    "numberOfWinners": 0
+  }, {
+    "id": 104,
+    "name": "4+2 (1/10)",
+    "amount": 2627.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 105,
+    "name": "4+1 (1/10)",
+    "amount": 133.2,
+    "numberOfWinners": 0
+  }, {
+    "id": 106,
+    "name": "4+0 (1/10)",
+    "amount": 66.3,
+    "numberOfWinners": 0
+  }, {
+    "id": 107,
+    "name": "3+2 (1/10)",
+    "amount": 39.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 108,
+    "name": "2+2 (1/10)",
+    "amount": 15.0,
+    "numberOfWinners": 0
+  }, {
+    "id": 109,
+    "name": "3+1 (1/10)",
+    "amount": 12.1,
+    "numberOfWinners": 0
+  }, {
+    "id": 110,
+    "name": "3+0 (1/10)",
+    "amount": 10.8,
+    "numberOfWinners": 0
+  }, {
+    "id": 111,
+    "name": "1+2 (1/10)",
+    "amount": 7.6,
+    "numberOfWinners": 0
+  }, {
+    "id": 112,
+    "name": "2+1 (1/10)",
+    "amount": 5.5,
+    "numberOfWinners": 0
+  }],
+  "starNumbers": [5, 6],
+  "date": "2019-06-28",
+  "winningNumbers": [18, 25, 26, 35, 38]
+}
