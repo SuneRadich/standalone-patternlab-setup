@@ -1,0 +1,10 @@
+{
+  "bodyStyle": "background-color: #294b4b;",
+  "buttons": [{
+    "type": "gold"
+  },{
+    "type": "purple"
+  },{
+    "type": "hollow"
+  }]
+}
