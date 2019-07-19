@@ -1,0 +1,30 @@
+{
+  "htmlMode": "normal",
+  "items": [
+    {
+      "target": "target1",
+      "text": "First item",
+      "background": "green"
+    },
+    {
+      "target": "target2",
+      "text": "Second item, with a very very long text that seems just a tad too much. Really.",
+      "background": "red"
+    },
+    {
+      "target": "target3",
+      "text": "Third text",
+      "background": "cyan"
+    },
+    {
+      "target": "target4",
+      "text": "Fourth text",
+      "background": "green"
+    },
+    {
+      "target": "target5",
+      "text": "Fifth text",
+      "background": "blue"
+    }
+  ]
+}

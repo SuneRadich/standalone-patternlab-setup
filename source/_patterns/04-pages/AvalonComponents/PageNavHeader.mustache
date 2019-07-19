@@ -1,0 +1,12 @@
+
+<header class="top-navigation header standard-header dli-10_dlo-6 {{ topNavigationTheme }} is-desktop-detected ">
+  {{> molecules-BrandNav }}
+  <nav class="page-nav-header" data-component="page-nav-header"></nav>
+</header>
+
+{{#items}}
+  {{> molecules-PageNavHeaderTarget }}
+  <div style="min-height: 300px;background-color: {{background}};"></div>
+{{/items}}
+
+

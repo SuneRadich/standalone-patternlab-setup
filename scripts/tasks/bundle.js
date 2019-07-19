@@ -112,6 +112,10 @@ function buildRegionData() {
       'avalon-livecasino': {
         areaClass: 'content-area avalon-area',
         topNavigationTheme: 'top-navigation-theme-livecasino'
+      },
+      'avalon-oddset': {
+        areaClass: 'content-area avalon-area',
+        topNavigationTheme: 'top-navigation-theme-oddset'
       }
     };
 
