@@ -22,8 +22,9 @@ function copy(source, dest) {
     
     try {
       fs.copyFile(source, dest, (err) => {
+        
         if (err) {
-          reject(`Region: ${args.options.theme} was not found`);
+          reject(color.red(`Region: ${args.options.theme} was not found`));
         }
 
         resolve();
@@ -46,13 +47,13 @@ function copyRegionBundle() {
   const scriptsSource = path.join(basePath, 'Scripts/DanskeSpil', `region-${args.options.theme}.html`);
   const scriptsDest = './source/_patterns/00-meta/_region-script-bundle.mustache';
   const scriptsPromise = copy(scriptsSource, scriptsDest).then( (err) => {
-    log(`Scripts for ${args.options.theme} copied`);
+    log(`Scripts for ${color.green(args.options.theme)} copied`);
   });
   
   const stylesSource = path.join(basePath, 'Styles/DanskeSpil', `region-${args.options.theme}.html`)
   const stylesDest = './source/_patterns/00-meta/_region-style-bundle.mustache'; 
   const stylesPromise = copy(stylesSource, stylesDest).then( (err) => {
-    log(`Styles for ${args.options.theme} copied`);
+    log(`Styles for ${color.green(args.options.theme)} copied`);
   });
 
   return Promise.all([scriptsPromise, stylesPromise]);
