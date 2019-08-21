@@ -1,17 +1,11 @@
-<div class="{{areaClass}}">
-  <div style="height: 1000px"></div>
-  
-  <div class="livecasino-gameinformation js-card-shuffle">
-    <h2 class="livecasino-gameinformation-spot-header">Vores spil</h2>
-    <div class="gameinformation-container container3">
-      
-      {{#listItems.ten}}
-        {{> molecules-gameinformation--element }}
-      {{/listItems.ten}}
-      
-    </div>
+<div class="livecasino-gameinformation js-card-shuffle">
+  <h2 class="livecasino-gameinformation-spot-header">Vores spil</h2>
+  <div class="js-game-information-wrapper swiper-container">
+      <div class="gameinformation-container container3 swiper-wrapper">
+        {{#listItems.ten}}        
+          {{> molecules-gameinformation--element }}        
+        {{/listItems.ten}}
+      </div>
+      <div class="swiper-scrollbar"></div>
   </div>
-
-  <div style="height: 1000px"></div>
-  
 </div>
