@@ -6,6 +6,7 @@
   "scripts": {
     "pl:help": "patternlab --help",
     "pl": "node ./scripts/build.js",
+    "pl:avalon-livecasino": "node ./scripts/build.js --theme=avalon-livecasino",
     "pl:avalon-bingo": "node ./scripts/build.js --theme=avalon-bingo",
     "pl:avalon-keno": "node ./scripts/build.js --theme=avalon-keno",
     "pl:avalon-quick": "node ./scripts/build.js --theme=avalon-quick",
