@@ -1,0 +1,39 @@
+{
+  "LiveCasino": {
+    "DealersList": {
+      "OnlineLabel": "Online",
+      "ReadLess": "Læs mindre",
+      "ReadMore": "Læs mere",
+      "OfflineCard": {
+        "Headline": "Dealeren er ikke online",
+        "Description": "... men der er heldigvis altid andre danske dealere på arbejde på Danske Spil Live Casino. "
+      }
+    },
+    "GameCard": {
+      "BlackJackTooltip": "SÆT DIG HER",
+      "InfoDealer": "Dealer:",
+      "InfoLimit": "Grænse:",
+      "StartGameButton": "Spil nu",
+      "TableClosed": "Bordet er lukket",
+      "Blackjack": {
+        "BetBehind": "",
+        "SeatTooltip": "SÆT DIG HER",
+        "TableFull": "Bordet er fyldt",
+        "TableFullBetBehind": "Bet behind"
+      },
+      "Countdown": {
+        "Header": "BORDET ÅBNER OM",
+        "Hours": "Timer",
+        "Minutes": "Minutter",
+        "Seconds": "Sekunder"
+      }
+    },
+    "PermissionSpot": {
+      "CompletionMessage": "Tak for din henvendelse",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Headline": "FÅ TIPS OG NYHEDER",
+      "ReadMoreLink": "Læs mere her",
+      "SignupButton": "Tilmeld"
+    }
+  }
+}
