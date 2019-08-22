@@ -1,0 +1,815 @@
+{
+  "casinoId": "danskespil000001",
+  "responseTimestamp": "2019-08-21 13:48:15.302",
+  "activeDealers": [{
+    "dealerid": "tts127788_______",
+    "name": "Ammy",
+    "tableId": "026bed774a4541e2",
+    "tableName": "Blackjack Silver 6"
+  }, {
+    "dealerid": "nrjnjmzrsbse56y6",
+    "name": "SpeedAuto",
+    "tableId": "mxypkbzgtszac3vu",
+    "tableName": "Speed Auto Roulette"
+  }, {
+    "dealerid": "tts118177_______",
+    "name": "Danuta",
+    "tableId": "zixzea8nrf1675oh",
+    "tableName": "Baccarat Squeeze"
+  }, {
+    "dealerid": "tts123265_______",
+    "name": "Taia",
+    "tableId": "eg9csx2gpjpctlxn",
+    "tableName": "Blackjack Silver 2"
+  }, {
+    "dealerid": "tts124641_______",
+    "name": "Sanija",
+    "tableId": "jhs44mm0v3fi3aux",
+    "tableName": "Blackjack C"
+  }, {
+    "dealerid": "tts115677_______",
+    "name": "Julija",
+    "tableId": "16000ghwy3u044m4",
+    "tableName": "Roulette"
+  }, {
+    "dealerid": "tts125337_______",
+    "name": "Alica",
+    "tableId": "s63nx2mpdomgjagb",
+    "tableName": "Blackjack VIP H"
+  }, {
+    "dealerid": "tts117887_______",
+    "name": "Arvids",
+    "tableId": "145c8033e444e0b0",
+    "tableName": "Blackjack Party"
+  }, {
+    "dealerid": "tts120086_______",
+    "name": "Simona",
+    "tableId": "nlaam36agjgqdeve",
+    "tableName": "Side Bet City"
+  }, {
+    "dealerid": "tts128607_______",
+    "name": "Baggio Christy",
+    "tableId": "xphpcthv8e6ivc16",
+    "tableName": "Blackjack B"
+  }, {
+    "dealerid": "tts117989_______",
+    "name": "Dainis",
+    "tableId": "2ea096b8c6844184",
+    "tableName": "Blackjack VIP I"
+  }, {
+    "dealerid": "tts128302_______",
+    "name": "Tesa",
+    "tableId": "xqyb2u7fqkexxpa0",
+    "tableName": "Blackjack D"
+  }, {
+    "dealerid": "tts117311_______",
+    "name": "Evita",
+    "tableId": "60i0lcfx5wkkv3sy",
+    "tableName": "Baccarat B"
+  }, {
+    "dealerid": "tts118551_______",
+    "name": "Kristina",
+    "tableId": "mfauggasz6nqiz24",
+    "tableName": "No Commission Baccarat"
+  }, {
+    "dealerid": "tts116971_______",
+    "name": "Reinis",
+    "tableId": "LightningTable01",
+    "tableName": "Lightning Roulette"
+  }, {
+    "dealerid": "tts128103_______",
+    "name": "Ana",
+    "tableId": "z2os1wjozyz4uemx",
+    "tableName": "Blackjack J"
+  }, {
+    "dealerid": "tts113530_______",
+    "name": "Hans",
+    "tableId": "ymnorrwmxu1fo63n",
+    "tableName": "Danske Spil Roulette"
+  }, {
+    "dealerid": "nsftimn2sbse66mt",
+    "name": "Auto",
+    "tableId": "48z5pjps3ntvqc1b",
+    "tableName": "Auto-Roulette"
+  }, {
+    "dealerid": "tts128607_______",
+    "name": "Baggio Christy",
+    "tableId": "g6yguserxjiy7h6e",
+    "tableName": "Blackjack B"
+  }, {
+    "dealerid": "tts120284_______",
+    "name": "Karine",
+    "tableId": "n5emwq5c5dwepwam",
+    "tableName": "Three Card Poker"
+  }, {
+    "dealerid": "tts127788_______",
+    "name": "Ammy",
+    "tableId": "lnofoyxv756qaezy",
+    "tableName": "Blackjack Silver 6"
+  }, {
+    "dealerid": "tts124562_______",
+    "name": "Valentins",
+    "tableId": "mi0fmo2q2sgreq4d",
+    "tableName": "Blackjack Grand VIP"
+  }, {
+    "dealerid": "tts111395_______",
+    "name": "Kristine",
+    "tableId": "lmbo3w6ln4ekepnx",
+    "tableName": "Immersive Roulette"
+  }, {
+    "dealerid": "tts112700_______",
+    "name": "Ksenija",
+    "tableId": "k5tkljsx3ulacqsn",
+    "tableName": "Baccarat Control Squeeze"
+  }, {
+    "dealerid": "tts118177_______",
+    "name": "Danuta",
+    "tableId": "kn0n41to0yaqaagd",
+    "tableName": "Baccarat Squeeze"
+  }, {
+    "dealerid": "tts123148_______",
+    "name": "Igors",
+    "tableId": "lapyymjrvkvaacds",
+    "tableName": "Ultimate Texas Hold'em"
+  }, {
+    "dealerid": "tts1161_________",
+    "name": "Nina",
+    "tableId": "nk76s6ndgjgqcuba",
+    "tableName": "2 Hand Casino Holdem"
+  }, {
+    "dealerid": "tts119991_______",
+    "name": "Dealer Y",
+    "tableId": "tgfaimjvp9ix5i4a",
+    "tableName": "Dragonara Roulette"
+  }, {
+    "dealerid": "tts118402_______",
+    "name": "Boriss",
+    "tableId": "z5pf5pichcsw3d2o",
+    "tableName": "Blackjack VIP G"
+  }, {
+    "dealerid": "tts128391_______",
+    "name": "Ema",
+    "tableId": "lnofpmm3756qae2c",
+    "tableName": "Blackjack Silver 7"
+  }, {
+    "dealerid": "tts118551_______",
+    "name": "Kristina",
+    "tableId": "NoCommBac0000001",
+    "tableName": "No Commission Baccarat"
+  }, {
+    "dealerid": "tts121517_______",
+    "name": "Charles",
+    "tableId": "l8mfxrysx2f8ko2v",
+    "tableName": "French Roulette"
+  }, {
+    "dealerid": "tts121517_______",
+    "name": "Charles",
+    "tableId": "t3zwrm36xmq7hqin",
+    "tableName": "VIP Roulette"
+  }, {
+    "dealerid": "tts124199_______",
+    "name": "Tomass",
+    "tableId": "0mvn914lkmo9vaq8",
+    "tableName": "Blackjack VIP A"
+  }, {
+    "dealerid": "tts117005_______",
+    "name": "Adina",
+    "tableId": "DragonTiger00001",
+    "tableName": "Dragon Tiger"
+  }, {
+    "dealerid": "tts127834_______",
+    "name": "Anna",
+    "tableId": "5aflh8oydchsxmds",
+    "tableName": "Blackjack G"
+  }, {
+    "dealerid": "tts112658_______",
+    "name": "Nadezhda",
+    "tableId": "levwnokwfxhaacf5",
+    "tableName": "Speed Baccarat A"
+  }, {
+    "dealerid": "tts118545_______",
+    "name": "Alisa",
+    "tableId": "oytmvb9m1zysmc44",
+    "tableName": "Baccarat A"
+  }, {
+    "dealerid": "tts1161_________",
+    "name": "Nina",
+    "tableId": "DHPTable00000001",
+    "tableName": "2 Hand Casino Holdem"
+  }, {
+    "dealerid": "tts126365_______",
+    "name": "Edgars",
+    "tableId": "xwziuxvxu4kby63r",
+    "tableName": "Blackjack VIP B"
+  }, {
+    "dealerid": "tts120976_______",
+    "name": "Benedict",
+    "tableId": "nlaagg7agjgqdcws",
+    "tableName": "Free Bet Blackjack"
+  }, {
+    "dealerid": "tts115677_______",
+    "name": "Julija",
+    "tableId": "vctlz20yfnmp1ylr",
+    "tableName": "Roulette"
+  }, {
+    "dealerid": "tts124489_______",
+    "name": "Sali",
+    "tableId": "ndgvwvgthfuaad3q",
+    "tableName": "Speed Baccarat C"
+  }, {
+    "dealerid": "tts122078_______",
+    "name": "Flora",
+    "tableId": "lkcbrbdckjxajdol",
+    "tableName": "Speed Roulette"
+  }, {
+    "dealerid": "tts122011_______",
+    "name": "Elizabete",
+    "tableId": "AmericanTable001",
+    "tableName": "American Roulette"
+  }, {
+    "dealerid": "tts127202_______",
+    "name": "Liza",
+    "tableId": "ndgvz5mlhfuaad6e",
+    "tableName": "Speed Baccarat D"
+  }, {
+    "dealerid": "tts117005_______",
+    "name": "Adina",
+    "tableId": "mmqrmcfi3hmaomcq",
+    "tableName": "Dragon Tiger"
+  }, {
+    "dealerid": "tts128391_______",
+    "name": "Ema",
+    "tableId": "68a824ec0b7d472f",
+    "tableName": "Blackjack Silver 7"
+  }, {
+    "dealerid": "nsftimn2sbse66mt",
+    "name": "Auto",
+    "tableId": "l5brh6t4akt2newd",
+    "tableName": "Auto-Roulette"
+  }, {
+    "dealerid": "tts112095_______",
+    "name": "Caitlin",
+    "tableId": "0stencfuihhygxmi",
+    "tableName": "Blackjack VIP D"
+  }, {
+    "dealerid": "tts112700_______",
+    "name": "Ksenija",
+    "tableId": "k2oswnib7jjaaznw",
+    "tableName": "Baccarat Control Squeeze"
+  }, {
+    "dealerid": "tts113815_______",
+    "name": "Elina",
+    "tableId": "lv2kzclunt2qnxo5",
+    "tableName": "Speed Baccarat B"
+  }, {
+    "dealerid": "tts124550_______",
+    "name": "Katrine",
+    "tableId": "6rdgjl52b3e1rs2o",
+    "tableName": "Danske Spil Blackjack A"
+  }, {
+    "dealerid": "tts111395_______",
+    "name": "Kristine",
+    "tableId": "7x0b1tgh7agmf6hv",
+    "tableName": "Immersive Roulette"
+  }, {
+    "dealerid": "tts125246_______",
+    "name": "Galina",
+    "tableId": "rea6cbgsagz0zfai",
+    "tableName": "Blackjack Fortune VIP"
+  }, {
+    "dealerid": "tts127807_______",
+    "name": "Anastasia",
+    "tableId": "ndwgnskixecqezo7",
+    "tableName": "Speed Baccarat E"
+  }, {
+    "dealerid": "tts123374_______",
+    "name": "Davis",
+    "tableId": "j1odsppd6obda3nk",
+    "tableName": "Blackjack Silver 3"
+  }, {
+    "dealerid": "tts113530_______",
+    "name": "Hans",
+    "tableId": "ji5el0ocpiouziy3",
+    "tableName": "Danske Spil Roulette"
+  }, {
+    "dealerid": "tts122011_______",
+    "name": "Elizabete",
+    "tableId": "moa5wsjz652qp3j3",
+    "tableName": "American Roulette"
+  }, {
+    "dealerid": "tts127488_______",
+    "name": "Sofia",
+    "tableId": "vw255nbqp46wkghw",
+    "tableName": "Blackjack Silver 4"
+  }, {
+    "dealerid": "tts126535_______",
+    "name": "Lile",
+    "tableId": "nnflc4u37hvzyyrl",
+    "tableName": "Speed Baccarat F"
+  }, {
+    "dealerid": "tts123148_______",
+    "name": "Igors",
+    "tableId": "UTHTable00000001",
+    "tableName": "Ultimate Texas Hold'em"
+  }, {
+    "dealerid": "tts124438_______",
+    "name": "Marius",
+    "tableId": "yhd7vlu7iq74rqws",
+    "tableName": "Blackjack F"
+  }, {
+    "dealerid": "tts124438_______",
+    "name": "Marius",
+    "tableId": "bghflgi59db7d7r2",
+    "tableName": "Blackjack F"
+  }, {
+    "dealerid": "tts122078_______",
+    "name": "Flora",
+    "tableId": "lqfp3575fbaal7qz",
+    "tableName": "Speed Roulette"
+  }, {
+    "dealerid": "tts118402_______",
+    "name": "Boriss",
+    "tableId": "rvtqpgzp3ggmronm",
+    "tableName": "Blackjack VIP G"
+  }, {
+    "dealerid": "tts127760_______",
+    "name": "Lisa",
+    "tableId": "ncafp5hldikqb5hf",
+    "tableName": "Blackjack VIP M"
+  }, {
+    "dealerid": "tts111912_______",
+    "name": "Tatjana",
+    "tableId": "rdefcn4sffgo39l7",
+    "tableName": "Blackjack Diamond VIP"
+  }, {
+    "dealerid": "tts117989_______",
+    "name": "Dainis",
+    "tableId": "lnofn2yl756qaezm",
+    "tableName": "Blackjack VIP I"
+  }, {
+    "dealerid": "tts123914_______",
+    "name": "Grigory",
+    "tableId": "psm2um7k4da8zwc2",
+    "tableName": "Blackjack VIP E"
+  }, {
+    "dealerid": "tts124550_______",
+    "name": "Katrine",
+    "tableId": "khppd116t5fbyt3l",
+    "tableName": "Danske Spil Blackjack A"
+  }, {
+    "dealerid": "tts127923_______",
+    "name": "Dante",
+    "tableId": "nbjettfehawanhes",
+    "tableName": "Blackjack VIP L"
+  }, {
+    "dealerid": "tts121517_______",
+    "name": "Charles",
+    "tableId": "tavbst6woosyq1xl",
+    "tableName": "French Roulette"
+  }, {
+    "dealerid": "tts127477_______",
+    "name": "Lika",
+    "tableId": "icp1i23v97zd9yyn",
+    "tableName": "Blackjack I"
+  }, {
+    "dealerid": "tts116338_______",
+    "name": "Ralfs",
+    "tableId": "nlaajiylgjgqddtm",
+    "tableName": "Lightning Dice"
+  }, {
+    "dealerid": "tts116971_______",
+    "name": "Reinis",
+    "tableId": "mkniu7kasnfqcar5",
+    "tableName": "Lightning Roulette"
+  }, {
+    "dealerid": "tts125752_______",
+    "name": "Nina",
+    "tableId": "ndgvs3tqhfuaadyg",
+    "tableName": "Baccarat C"
+  }, {
+    "dealerid": "tts118835_______",
+    "name": "Rihards",
+    "tableId": "HoldemTable00001",
+    "tableName": "Casino Hold'em"
+  }, {
+    "dealerid": "tts126365_______",
+    "name": "Edgars",
+    "tableId": "cpxl81x0rgi34cmo",
+    "tableName": "Blackjack VIP B"
+  }, {
+    "dealerid": "nrvq4j7msbslyrsf",
+    "name": "Auto",
+    "tableId": "9zcb9iyj8nzo3aab",
+    "tableName": "Auto-Roulette VIP"
+  }, {
+    "dealerid": "tts123914_______",
+    "name": "Grigory",
+    "tableId": "111c5m31k3k2q9mh",
+    "tableName": "Blackjack VIP E"
+  }, {
+    "dealerid": "tts116434_______",
+    "name": "Alise",
+    "tableId": "SuperSicBo000001",
+    "tableName": "Super Sic Bo"
+  }, {
+    "dealerid": "tts126246_______",
+    "name": "Deivids",
+    "tableId": "gazgtkid9h1b0dn9",
+    "tableName": "Blackjack Silver 5"
+  }, {
+    "dealerid": "tts122007_______",
+    "name": "Michael",
+    "tableId": "0c25ztqialz44uuu",
+    "tableName": "Danske Spil Blackjack B"
+  }, {
+    "dealerid": "tts128302_______",
+    "name": "Tesa",
+    "tableId": "q0ulxxx17u8lh18l",
+    "tableName": "Blackjack D"
+  }, {
+    "dealerid": "tts126757_______",
+    "name": "Anastasija",
+    "tableId": "lapywn36vkvaacdh",
+    "tableName": "Caribbean Stud Poker"
+  }, {
+    "dealerid": "tts126321_______",
+    "name": "Andrei",
+    "tableId": "lar42nqpvkvaaomx",
+    "tableName": "Blackjack White 3"
+  }, {
+    "dealerid": "tts126528_______",
+    "name": "Andis",
+    "tableId": "pcqj9wg3zho1ygi0",
+    "tableName": "Blackjack Silver 1"
+  }, {
+    "dealerid": "tts118835_______",
+    "name": "Rihards",
+    "tableId": "l4epcjnkfadgdi5v",
+    "tableName": "Casino Hold'em"
+  }, {
+    "dealerid": "tts119296_______",
+    "name": "Helen",
+    "tableId": "k4r2hyhw4eqqb6us",
+    "tableName": "Blackjack White 2"
+  }, {
+    "dealerid": "tts124923_______",
+    "name": "Dianna",
+    "tableId": "ndgv76kehfuaaeec",
+    "tableName": "No Comm Speed Baccarat"
+  }, {
+    "dealerid": "tts126321_______",
+    "name": "Andrei",
+    "tableId": "k4r2kvd34eqqb6vh",
+    "tableName": "Blackjack White 3"
+  }, {
+    "dealerid": "tts120652_______",
+    "name": "Ugis",
+    "tableId": "l5aug44hhzr3qvxs",
+    "tableName": "Blackjack VIP C"
+  }, {
+    "dealerid": "tts120976_______",
+    "name": "Benedict",
+    "tableId": "FreeBet000000001",
+    "tableName": "Free Bet Blackjack"
+  }, {
+    "dealerid": "tts113815_______",
+    "name": "Elina",
+    "tableId": "ac7e22d39a47474a",
+    "tableName": "Speed Baccarat B"
+  }, {
+    "dealerid": "tts119991_______",
+    "name": "Dealer Y",
+    "tableId": "q0a470up68p2b81p",
+    "tableName": "Dragonara Roulette"
+  }, {
+    "dealerid": "tts127712_______",
+    "name": "Ebby",
+    "tableId": "nkyivihc2jpbw4uy",
+    "tableName": "Blackjack VIP O"
+  }, {
+    "dealerid": "tts124641_______",
+    "name": "Sanija",
+    "tableId": "xi6wixvaxbxbc312",
+    "tableName": "Blackjack C"
+  }, {
+    "dealerid": "tts123374_______",
+    "name": "Davis",
+    "tableId": "qlrc3fq3v7p6awm4",
+    "tableName": "Blackjack Silver 3"
+  }, {
+    "dealerid": "tts120086_______",
+    "name": "Simona",
+    "tableId": "SBCTable00000001",
+    "tableName": "Side Bet City"
+  }, {
+    "dealerid": "tts128264_______",
+    "name": "Daniela",
+    "tableId": "lqgdgc6tfbaamijr",
+    "tableName": "Blackjack Extra 1"
+  }, {
+    "dealerid": "tts121517_______",
+    "name": "Charles",
+    "tableId": "wzg6kdkad1oe7m5k",
+    "tableName": "VIP Roulette"
+  }, {
+    "dealerid": "lqkr24g2z5qqbdlb",
+    "name": "Dealer R",
+    "tableId": "lwlwbspdbaxqgned",
+    "tableName": "Grand Casino Roulette"
+  }, {
+    "dealerid": "lqkr24g2z5qqbdlb",
+    "name": "Dealer R",
+    "tableId": "lr6t4k3lcd4qgyrk",
+    "tableName": "Grand Casino Roulette"
+  }, {
+    "dealerid": "tts127488_______",
+    "name": "Sofia",
+    "tableId": "qckwjf2o52r9ikeb",
+    "tableName": "Blackjack Silver 4"
+  }, {
+    "dealerid": "nsgp577usbsfthel",
+    "name": "Auto",
+    "tableId": "jy2yrnm3keyhqtwi",
+    "tableName": "Auto-Roulette La Partage"
+  }, {
+    "dealerid": "tts127923_______",
+    "name": "Dante",
+    "tableId": "ncafqcqxdikqb5hm",
+    "tableName": "Blackjack VIP L"
+  }, {
+    "dealerid": "tts117116_______",
+    "name": "Artjoms",
+    "tableId": "nl637v7fy4xagjoj",
+    "tableName": "Double Ball Roulette"
+  }, {
+    "dealerid": "tts127760_______",
+    "name": "Lisa",
+    "tableId": "nbjetztthawanhey",
+    "tableName": "Blackjack VIP M"
+  }, {
+    "dealerid": "tts124958_______",
+    "name": "Inga",
+    "tableId": "uwd2bl2khwcikjlz",
+    "tableName": "Blackjack A"
+  }, {
+    "dealerid": "tts117887_______",
+    "name": "Arvids",
+    "tableId": "sni5cza6d1vvl50i",
+    "tableName": "Blackjack Party"
+  }, {
+    "dealerid": "tts119296_______",
+    "name": "Helen",
+    "tableId": "lar4y5xtvkvaaomq",
+    "tableName": "Blackjack White 2"
+  }, {
+    "dealerid": "tts112660_______",
+    "name": "Alina",
+    "tableId": "0zi17xv8l0efhld0",
+    "tableName": "Blackjack Platinum VIP"
+  }, {
+    "dealerid": "tts126757_______",
+    "name": "Anastasija",
+    "tableId": "CSPTable00000001",
+    "tableName": "Caribbean Stud Poker"
+  }, {
+    "dealerid": "tts126246_______",
+    "name": "Deivids",
+    "tableId": "orxgrk4c7ol62fcg",
+    "tableName": "Blackjack Silver 5"
+  }, {
+    "dealerid": "nrjnjmzrsbse56y6",
+    "name": "SpeedAuto",
+    "tableId": "SpeedAutoRo00001",
+    "tableName": "Speed Auto Roulette"
+  }, {
+    "dealerid": "tts124199_______",
+    "name": "Tomass",
+    "tableId": "34ebt425yj2wbhfp",
+    "tableName": "Blackjack VIP A"
+  }, {
+    "dealerid": "tts124923_______",
+    "name": "Dianna",
+    "tableId": "ndwgncgoxecqezoq",
+    "tableName": "No Comm Speed Baccarat"
+  }, {
+    "dealerid": "tts116338_______",
+    "name": "Ralfs",
+    "tableId": "LightningDice001",
+    "tableName": "Lightning Dice"
+  }, {
+    "dealerid": "tts120284_______",
+    "name": "Karine",
+    "tableId": "bv8fblod4imabh1n",
+    "tableName": "Three Card Poker"
+  }, {
+    "dealerid": "tts120652_______",
+    "name": "Ugis",
+    "tableId": "u3khtlo51hc1a1pd",
+    "tableName": "Blackjack VIP C"
+  }, {
+    "dealerid": "tts126445_______",
+    "name": "Daisy",
+    "tableId": "nnfldbba7hvzyytp",
+    "tableName": "Speed Baccarat G"
+  }, {
+    "dealerid": "tts115677_______",
+    "name": "Julija",
+    "tableId": "4kdqe2b87zsxnfk9",
+    "tableName": "Mini Live Roulette"
+  }, {
+    "dealerid": "tts125337_______",
+    "name": "Alica",
+    "tableId": "m26deh86p01vyp8x",
+    "tableName": "Blackjack VIP H"
+  }, {
+    "dealerid": "tts127202_______",
+    "name": "Liza",
+    "tableId": "ndwgnnqnxecqezo4",
+    "tableName": "Speed Baccarat D"
+  }, {
+    "dealerid": "tts111912_______",
+    "name": "Tatjana",
+    "tableId": "yctj9u0vu16eh61c",
+    "tableName": "Blackjack Diamond VIP"
+  }, {
+    "dealerid": "tts122000_______",
+    "name": "Christi",
+    "tableId": "mrfykemt5slanyi5",
+    "tableName": "Infinite Blackjack"
+  }, {
+    "dealerid": "tts126445_______",
+    "name": "Daisy",
+    "tableId": "nmwdzhbg7hvqh6a7",
+    "tableName": "Speed Baccarat G"
+  }, {
+    "dealerid": "tts117311_______",
+    "name": "Evita",
+    "tableId": "1e14ai7aa8ey25ny",
+    "tableName": "Baccarat B"
+  }, {
+    "dealerid": "tts126528_______",
+    "name": "Andis",
+    "tableId": "gkmq0o2hryjyqu30",
+    "tableName": "Blackjack Silver 1"
+  }, {
+    "dealerid": "tts125752_______",
+    "name": "Nina",
+    "tableId": "ndwgm2gnxecqezoi",
+    "tableName": "Baccarat C"
+  }, {
+    "dealerid": "tts112658_______",
+    "name": "Nadezhda",
+    "tableId": "leqhceumaq6qfoug",
+    "tableName": "Speed Baccarat A"
+  }, {
+    "dealerid": "tts128264_______",
+    "name": "Daniela",
+    "tableId": "lqgc43ggfbaamie3",
+    "tableName": "Blackjack Extra 1"
+  }, {
+    "dealerid": "tts127712_______",
+    "name": "Ebby",
+    "tableId": "nky2mhtl2jpbz4fv",
+    "tableName": "Blackjack VIP O"
+  }, {
+    "dealerid": "tts127231_______",
+    "name": "Sophia",
+    "tableId": "qg2ff216wspigrjv",
+    "tableName": "Blackjack H"
+  }, {
+    "dealerid": "tts128103_______",
+    "name": "Ana",
+    "tableId": "i5j1cyqhrypkih23",
+    "tableName": "Blackjack J"
+  }, {
+    "dealerid": "tts117116_______",
+    "name": "Artjoms",
+    "tableId": "DoubleBallRou001",
+    "tableName": "Double Ball Roulette"
+  }, {
+    "dealerid": "tts123466_______",
+    "name": "Vlad",
+    "tableId": "lar4xyy2vkvaaomk",
+    "tableName": "Blackjack White 1"
+  }, {
+    "dealerid": "tts122000_______",
+    "name": "Christi",
+    "tableId": "nl632pdky4xaggdv",
+    "tableName": "Infinite Blackjack"
+  }, {
+    "dealerid": "tts127231_______",
+    "name": "Sophia",
+    "tableId": "nc3u2l6y0khszjv7",
+    "tableName": "Blackjack H"
+  }, {
+    "dealerid": "tts124562_______",
+    "name": "Valentins",
+    "tableId": "gfzrqe4hqv24kukc",
+    "tableName": "Blackjack Grand VIP"
+  }, {
+    "dealerid": "tts123265_______",
+    "name": "Taia",
+    "tableId": "9f4xhuhdd005xlbl",
+    "tableName": "Blackjack Silver 2"
+  }, {
+    "dealerid": "tts127807_______",
+    "name": "Anastasia",
+    "tableId": "ndgv45bghfuaaebf",
+    "tableName": "Speed Baccarat E"
+  }, {
+    "dealerid": "tts112660_______",
+    "name": "Alina",
+    "tableId": "h463tlq1rhl1lfr2",
+    "tableName": "Blackjack Platinum VIP"
+  }, {
+    "dealerid": "tts128739_______",
+    "name": "Damiane",
+    "tableId": "ylq4gmw8yl22u5dj",
+    "tableName": "Blackjack E"
+  }, {
+    "dealerid": "tts123466_______",
+    "name": "Vlad",
+    "tableId": "k4r2ejwx4eqqb6tv",
+    "tableName": "Blackjack White 1"
+  }, {
+    "dealerid": "tts119127_______",
+    "name": "Andrej",
+    "tableId": "TopCard000000001",
+    "tableName": "Football studio Top Card"
+  }, {
+    "dealerid": "tts124489_______",
+    "name": "Sali",
+    "tableId": "ndwgnim3xecqezo2",
+    "tableName": "Speed Baccarat C"
+  }, {
+    "dealerid": "tts127834_______",
+    "name": "Anna",
+    "tableId": "1xwfnktjybsolkn6",
+    "tableName": "Blackjack G"
+  }, {
+    "dealerid": "tts112095_______",
+    "name": "Caitlin",
+    "tableId": "o3d9tx3u8kd0yawc",
+    "tableName": "Blackjack VIP D"
+  }, {
+    "dealerid": "tts119127_______",
+    "name": "Andrej",
+    "tableId": "mpike7yuayeqt5uv",
+    "tableName": "Football studio Top Card"
+  }, {
+    "dealerid": "tts125246_______",
+    "name": "Galina",
+    "tableId": "ejx1a04w4ben0mou",
+    "tableName": "Blackjack Fortune VIP"
+  }, {
+    "dealerid": "tts122007_______",
+    "name": "Michael",
+    "tableId": "e752z5xpd1ssgzjp",
+    "tableName": "Danske Spil Blackjack B"
+  }, {
+    "dealerid": "tts124958_______",
+    "name": "Inga",
+    "tableId": "jdtfexnrqju2xptp",
+    "tableName": "Blackjack A"
+  }, {
+    "dealerid": "tts113530_______",
+    "name": "Hans",
+    "tableId": "5wjp0vlafh10oomn",
+    "tableName": "Danske Spil Roulette"
+  }, {
+    "dealerid": "tts128739_______",
+    "name": "Damiane",
+    "tableId": "hzkjbtt3hqtl4sd2",
+    "tableName": "Blackjack E"
+  }, {
+    "dealerid": "tts127477_______",
+    "name": "Lika",
+    "tableId": "xstnlyzrm345ev95",
+    "tableName": "Blackjack I"
+  }, {
+    "dealerid": "nsgp577usbsfthel",
+    "name": "Auto",
+    "tableId": "f1f4rm9xgh4j3u2z",
+    "tableName": "Auto-Roulette La Partage"
+  }, {
+    "dealerid": "tts118545_______",
+    "name": "Alisa",
+    "tableId": "lneb7bjkdufvamky",
+    "tableName": "Baccarat A"
+  }, {
+    "dealerid": "nrvq4j7msbslyrsf",
+    "name": "Auto",
+    "tableId": "01rb77cq1gtenhmo",
+    "tableName": "Auto-Roulette VIP"
+  }, {
+    "dealerid": "tts126535_______",
+    "name": "Lile",
+    "tableId": "nmwde3fd7hvqhq43",
+    "tableName": "Speed Baccarat F"
+  }, {
+    "dealerid": "tts116434_______",
+    "name": "Alise",
+    "tableId": "nk736kkxgjgqb5b7",
+    "tableName": "Super Sic Bo"
+  }]
+}

@@ -91,6 +91,7 @@ module.exports = {
   "patternExportPatternPartials": [],
   
 	"serverOptions": {
+    "port": 3000,
 		"wait": 1000,
     "noCssInject": true,
     mount: [
@@ -100,7 +101,8 @@ module.exports = {
 		proxy: [
       ["/mockapi", "http://127.0.0.1:3010/mockapi"],
       ['/dli', 'http://127.0.0.1:3010/mockapi'],
-      ['/dlo', 'http://127.0.0.1:3010/mockapi']
+      ['/dlo', 'http://127.0.0.1:3010/mockapi'],
+      ['/evolutionGaming', 'http://127.0.0.1:3010/mockapi/evolutionGaming']
 		]
 	},
   "starterkitSubDir": "dist",
